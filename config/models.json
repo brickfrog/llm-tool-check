@@ -39,6 +39,11 @@
     "openrouter": ["qwen/qwen3-30b-a3b", "qwen/qwen3-30b-a3b:free"],
     "iointel": null
   },
+  "Qwen3 Coder": {
+    "huggingface": [],
+    "openrouter": ["qwen/qwen3-coder:free"],
+    "iointel": null
+  },
   "Qwen3 235B": {
     "huggingface": [],
     "openrouter": [],
