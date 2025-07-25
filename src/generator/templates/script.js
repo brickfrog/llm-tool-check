@@ -15,6 +15,9 @@ document.addEventListener('DOMContentLoaded', function() {
             // Show corresponding content
             const contentId = this.id.replace('tab', 'content');
             document.getElementById(contentId).classList.add('active');
+            
+            // Update column visibility for the new active tab
+            updateColumnVisibility();
         });
     });
 
@@ -40,16 +43,19 @@ document.addEventListener('DOMContentLoaded', function() {
             const contentElement = document.getElementById(contentId);
             if (contentElement) {
                 contentElement.classList.add('active');
+                // Update column visibility for the new active nested tab
+                updateColumnVisibility();
             }
         }
     });
 
     // Platform filtering functionality
-    const filterCheckboxes = document.querySelectorAll('.filter-checkbox input[type="checkbox"]');
+    const platformFilterCheckboxes = document.querySelectorAll('.filter-checkbox input[type="checkbox"][id^="filter-"]');
+    const hideFailureCheckbox = document.getElementById('hide-failure-columns');
 
     function applyFilters() {
         const activeFilters = new Set();
-        filterCheckboxes.forEach(checkbox => {
+        platformFilterCheckboxes.forEach(checkbox => {
             if (checkbox.checked) {
                 const platform = checkbox.id.replace('filter-', '');
                 activeFilters.add(platform);
@@ -74,32 +80,51 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function updateColumnVisibility() {
-        // Get all provider columns
-        const allProviderHeaders = document.querySelectorAll('th[data-provider]');
+        const hideFailures = hideFailureCheckbox && hideFailureCheckbox.checked;
 
-        allProviderHeaders.forEach(header => {
+        // Get the currently active tab content to scope the filtering
+        const activeTabContent = document.querySelector('.tab-content.active');
+        if (!activeTabContent) return;
+
+        // Get provider columns only within the active tab
+        const activeProviderHeaders = activeTabContent.querySelectorAll('th[data-provider]');
+
+        activeProviderHeaders.forEach(header => {
             const provider = header.getAttribute('data-provider');
-            const colIndex = header.getAttribute('data-col-index');
-
-            // Check if any visible row has non-dash content for this provider
-            const visibleRows = document.querySelectorAll('table tbody tr[data-platform]:not([style*="display: none"])');
+            const table = header.closest('table');
+            
+            // Check visible rows only within this specific table
+            const visibleRows = table.querySelectorAll('tbody tr[data-platform]:not([style*="display: none"])');
             let hasData = false;
+            let hasSuccess = false;
 
             visibleRows.forEach(row => {
                 const cell = row.querySelector(`td[data-provider="${provider}"]`);
                 if (cell) {
-                    const cellText = cell.textContent.trim();
-                    // Check if cell has meaningful data (not just "-")
-                    if (cellText !== '-' && cellText !== '') {
-                        hasData = true;
+                    const cellSpan = cell.querySelector('span.cell');
+                    if (cellSpan) {
+                        // Check if this cell has any actual data (not "none" class)
+                        if (!cellSpan.classList.contains('none')) {
+                            hasData = true;
+                        }
+                        // Check if it has successful data
+                        if (cellSpan.classList.contains('success') || cellSpan.classList.contains('partial')) {
+                            hasSuccess = true;
+                        }
                     }
                 }
             });
 
-            // Hide/show the column header and all cells in this column
-            const allCellsInColumn = document.querySelectorAll(`th[data-provider="${provider}"], td[data-provider="${provider}"]`);
-            allCellsInColumn.forEach(cell => {
-                if (hasData) {
+            // Determine whether to show the column
+            let shouldShow = hasData;
+            if (hideFailures) {
+                shouldShow = hasSuccess;
+            }
+
+            // Hide/show the column header and all cells in this specific table
+            const tableCellsInColumn = table.querySelectorAll(`th[data-provider="${provider}"], td[data-provider="${provider}"]`);
+            tableCellsInColumn.forEach(cell => {
+                if (shouldShow) {
                     cell.style.display = '';
                 } else {
                     cell.style.display = 'none';
@@ -108,10 +133,17 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // Add event listeners to filter checkboxes
-    filterCheckboxes.forEach(checkbox => {
+    // Add event listeners to platform filter checkboxes
+    platformFilterCheckboxes.forEach(checkbox => {
         checkbox.addEventListener('change', applyFilters);
     });
+
+    // Add event listener to hide failure columns checkbox
+    if (hideFailureCheckbox) {
+        hideFailureCheckbox.addEventListener('change', function() {
+            updateColumnVisibility();
+        });
+    }
 
     // Apply initial filters
     applyFilters();

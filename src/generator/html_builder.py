@@ -83,6 +83,13 @@ def generate_filter_controls():
                 <label for="filter-iointel">io.net</label>
             </div>
         </div>
+        <h3 style="margin-top: 20px;">Display Options</h3>
+        <div class="filter-checkboxes">
+            <div class="filter-checkbox">
+                <input type="checkbox" id="hide-failure-columns">
+                <label for="hide-failure-columns">Hide columns with no successful models</label>
+            </div>
+        </div>
     </div>"""
 
 
