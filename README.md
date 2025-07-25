@@ -2,8 +2,6 @@
 
 Automated tracking of function calling (tool) support across different models and providers on OpenRouter, Hugging Face, and io.net.
 
-View the live results at: https://xeophon.github.io/llm-tool-check/
-
 ## Usage
 
 ### Quick Start
