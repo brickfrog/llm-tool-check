@@ -1,0 +1,23 @@
+[project]
+name = "openrouter-check"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = [
+    "httpx>=0.28.1",
+    "openai>=1.82.1",
+    "python-dotenv>=1.1.0",
+    "requests>=2.32.3",
+]
+
+[project.optional-dependencies]
+huggingface = [
+    "huggingface-hub>=0.32.3",
+]
+iointel = [
+    "iointel",
+]
+dev = [
+    "pre-commit>=4.0.0",
+    "ruff>=0.8.0",
+]

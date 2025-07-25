@@ -1,0 +1,3809 @@
+{
+  "generated_at": "2025-07-22T12:42:39.089784",
+  "total_models": 6,
+  "models": [
+    {
+      "model_id": "deepseek-ai/DeepSeek-V3-0324",
+      "timestamp": "2025-07-22T12:43:10.112779",
+      "providers_tested": 6,
+      "providers": [
+        {
+          "model_id": "deepseek-ai/DeepSeek-V3-0324",
+          "provider_name": "novita",
+          "display_name": "novita",
+          "vendor": "novita",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "deepseek-ai/DeepSeek-V3-0324",
+              "provider_name": "novita",
+              "display_name": "novita",
+              "vendor": "novita",
+              "region": "",
+              "supports_tools": true,
+              "tool_call_made": true,
+              "status": "success",
+              "error": null,
+              "response_content": null,
+              "tool_calls": [
+                {
+                  "id": "call_09d8f0cdd5504ffaad292440",
+                  "type": "function",
+                  "function": {
+                    "name": "get_weather",
+                    "arguments": "{\"location\": \"San Francisco, CA\", \"unit\": \"fahrenheit\"}"
+                  }
+                }
+              ],
+              "finish_reason": "tool_calls",
+              "model_used": "deepseek/deepseek-v3-0324",
+              "timestamp": "2025-07-22T12:42:39.288033"
+            },
+            {
+              "model_id": "deepseek-ai/DeepSeek-V3-0324",
+              "provider_name": "novita",
+              "display_name": "novita",
+              "vendor": "novita",
+              "region": "",
+              "supports_tools": true,
+              "tool_call_made": true,
+              "status": "success",
+              "error": null,
+              "response_content": null,
+              "tool_calls": [
+                {
+                  "id": "call_cdsnfuv25zedfz2vaqz9fq3a",
+                  "type": "function",
+                  "function": {
+                    "name": "get_weather",
+                    "arguments": "{\"location\":\"San Francisco\",\"unit\":\"fahrenheit\"}"
+                  }
+                }
+              ],
+              "finish_reason": "tool_calls",
+              "model_used": "deepseek/deepseek-v3-0324",
+              "timestamp": "2025-07-22T12:42:39.288094"
+            },
+            {
+              "model_id": "deepseek-ai/DeepSeek-V3-0324",
+              "provider_name": "novita",
+              "display_name": "novita",
+              "vendor": "novita",
+              "region": "",
+              "supports_tools": true,
+              "tool_call_made": true,
+              "status": "success",
+              "error": null,
+              "response_content": null,
+              "tool_calls": [
+                {
+                  "id": "7dd65e283ffa4ed1ae3b8fc21f43a33c",
+                  "type": "function",
+                  "function": {
+                    "name": "get_weather",
+                    "arguments": "{\"location\":\"San Francisco, CA\",\"unit\":\"celsius\"}"
+                  }
+                }
+              ],
+              "finish_reason": "tool_calls",
+              "model_used": "deepseek/deepseek-v3-0324",
+              "timestamp": "2025-07-22T12:42:39.289776"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 3,
+            "error_count": 0,
+            "unclear_count": 0,
+            "no_tool_call_count": 0
+          },
+          "timestamp": "2025-07-22T12:43:10.112691"
+        },
+        {
+          "model_id": "deepseek-ai/DeepSeek-V3-0324",
+          "provider_name": "fireworks-ai",
+          "display_name": "fireworks-ai",
+          "vendor": "fireworks-ai",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "deepseek-ai/DeepSeek-V3-0324",
+              "provider_name": "fireworks-ai",
+              "display_name": "fireworks-ai",
+              "vendor": "fireworks-ai",
+              "region": "",
+              "supports_tools": true,
+              "tool_call_made": true,
+              "status": "success",
+              "error": null,
+              "response_content": null,
+              "tool_calls": [
+                {
+                  "id": "call_j1gav0fOpTRpBVfKlv5xFIOX",
+                  "type": "function",
+                  "function": {
+                    "name": "get_weather",
+                    "arguments": "{\"location\": \"San Francisco\", \"unit\": \"fahrenheit\"}"
+                  }
+                }
+              ],
+              "finish_reason": "tool_calls",
+              "model_used": "accounts/fireworks/models/deepseek-v3-0324",
+              "timestamp": "2025-07-22T12:42:39.290698"
+            },
+            {
+              "model_id": "deepseek-ai/DeepSeek-V3-0324",
+              "provider_name": "fireworks-ai",
+              "display_name": "fireworks-ai",
+              "vendor": "fireworks-ai",
+              "region": "",
+              "supports_tools": true,
+              "tool_call_made": true,
+              "status": "success",
+              "error": null,
+              "response_content": null,
+              "tool_calls": [
+                {
+                  "id": "call_yNKEbRc1zXRCt3prYRmMfH1s",
+                  "type": "function",
+                  "function": {
+                    "name": "get_weather",
+                    "arguments": "{\"location\": \"San Francisco\", \"unit\": \"fahrenheit\"}"
+                  }
+                }
+              ],
+              "finish_reason": "tool_calls",
+              "model_used": "accounts/fireworks/models/deepseek-v3-0324",
+              "timestamp": "2025-07-22T12:42:39.291176"
+            },
+            {
+              "model_id": "deepseek-ai/DeepSeek-V3-0324",
+              "provider_name": "fireworks-ai",
+              "display_name": "fireworks-ai",
+              "vendor": "fireworks-ai",
+              "region": "",
+              "supports_tools": true,
+              "tool_call_made": true,
+              "status": "success",
+              "error": null,
+              "response_content": null,
+              "tool_calls": [
+                {
+                  "id": "call_l6DAHj5CygrF54BrF8keSrVB",
+                  "type": "function",
+                  "function": {
+                    "name": "get_weather",
+                    "arguments": "{\"location\": \"San Francisco\", \"unit\": \"fahrenheit\"}"
+                  }
+                }
+              ],
+              "finish_reason": "tool_calls",
+              "model_used": "accounts/fireworks/models/deepseek-v3-0324",
+              "timestamp": "2025-07-22T12:42:39.293239"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 3,
+            "error_count": 0,
+            "unclear_count": 0,
+            "no_tool_call_count": 0
+          },
+          "timestamp": "2025-07-22T12:43:10.112717"
+        },
+        {
+          "model_id": "deepseek-ai/DeepSeek-V3-0324",
+          "provider_name": "nebius",
+          "display_name": "nebius",
+          "vendor": "nebius",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "deepseek-ai/DeepSeek-V3-0324",
+              "provider_name": "nebius",
+              "display_name": "nebius",
+              "vendor": "nebius",
+              "region": "",
+              "supports_tools": true,
+              "tool_call_made": true,
+              "status": "success",
+              "error": null,
+              "response_content": null,
+              "tool_calls": [
+                {
+                  "id": "chatcmpl-tool-ecdec8ed9712442c9822787765c479ac",
+                  "type": "function",
+                  "function": {
+                    "name": "get_weather",
+                    "arguments": "{\"location\":\"San Francisco, CA\",\"unit\":\"fahrenheit\"}"
+                  }
+                }
+              ],
+              "finish_reason": "tool_calls",
+              "model_used": "deepseek-ai/DeepSeek-V3-0324-fast",
+              "timestamp": "2025-07-22T12:42:39.293256"
+            },
+            {
+              "model_id": "deepseek-ai/DeepSeek-V3-0324",
+              "provider_name": "nebius",
+              "display_name": "nebius",
+              "vendor": "nebius",
+              "region": "",
+              "supports_tools": false,
+              "tool_call_made": false,
+              "status": "no_tool_call",
+              "error": null,
+              "response_content": "\u6cd5\u570bfunction<\uff5ctool\u2581sep\uff5c>get_weather\n```json\n{\"location\":\"San Francisco, CA\",\"unit\":\"fahrenheit\"}\n```<\uff5ctool\u2581call\u2581end\uff5c><\uff5ctool\u2581calls\u2581end\uff5c>",
+              "tool_calls": null,
+              "finish_reason": "stop",
+              "model_used": "deepseek-ai/DeepSeek-V3-0324-fast",
+              "timestamp": "2025-07-22T12:42:39.293262"
+            },
+            {
+              "model_id": "deepseek-ai/DeepSeek-V3-0324",
+              "provider_name": "nebius",
+              "display_name": "nebius",
+              "vendor": "nebius",
+              "region": "",
+              "supports_tools": true,
+              "tool_call_made": true,
+              "status": "success",
+              "error": null,
+              "response_content": null,
+              "tool_calls": [
+                {
+                  "id": "chatcmpl-tool-6a8b00c724184158bf7d7c37c5f71d95",
+                  "type": "function",
+                  "function": {
+                    "name": "get_weather",
+                    "arguments": "{\"location\":\"San Francisco, CA\",\"unit\":\"fahrenheit\"}"
+                  }
+                }
+              ],
+              "finish_reason": "tool_calls",
+              "model_used": "deepseek-ai/DeepSeek-V3-0324-fast",
+              "timestamp": "2025-07-22T12:42:39.293266"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 2,
+            "error_count": 0,
+            "unclear_count": 0,
+            "no_tool_call_count": 1
+          },
+          "timestamp": "2025-07-22T12:43:10.112732"
+        },
+        {
+          "model_id": "deepseek-ai/DeepSeek-V3-0324",
+          "provider_name": "together",
+          "display_name": "together",
+          "vendor": "together",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "deepseek-ai/DeepSeek-V3-0324",
+              "provider_name": "together",
+              "display_name": "together",
+              "vendor": "together",
+              "region": "",
+              "supports_tools": true,
+              "tool_call_made": true,
+              "status": "success",
+              "error": null,
+              "response_content": null,
+              "tool_calls": [
+                {
+                  "id": "call_9mhvlugwklgvumiowqw1iq4e",
+                  "type": "function",
+                  "function": {
+                    "name": "get_weather",
+                    "arguments": "{\"location\":\"San Francisco, CA\",\"unit\":\"fahrenheit\"}"
+                  }
+                }
+              ],
+              "finish_reason": "tool_calls",
+              "model_used": "deepseek-ai/DeepSeek-V3",
+              "timestamp": "2025-07-22T12:42:39.293273"
+            },
+            {
+              "model_id": "deepseek-ai/DeepSeek-V3-0324",
+              "provider_name": "together",
+              "display_name": "together",
+              "vendor": "together",
+              "region": "",
+              "supports_tools": true,
+              "tool_call_made": true,
+              "status": "success",
+              "error": null,
+              "response_content": null,
+              "tool_calls": [
+                {
+                  "id": "call_3spyp0uzxfq9aeio4xszdna4",
+                  "type": "function",
+                  "function": {
+                    "name": "get_weather",
+                    "arguments": "{\"location\":\"San Francisco, CA\"}"
+                  }
+                }
+              ],
+              "finish_reason": "tool_calls",
+              "model_used": "deepseek-ai/DeepSeek-V3",
+              "timestamp": "2025-07-22T12:42:39.293277"
+            },
+            {
+              "model_id": "deepseek-ai/DeepSeek-V3-0324",
+              "provider_name": "together",
+              "display_name": "together",
+              "vendor": "together",
+              "region": "",
+              "supports_tools": true,
+              "tool_call_made": true,
+              "status": "success",
+              "error": null,
+              "response_content": null,
+              "tool_calls": [
+                {
+                  "id": "call_pzih51w17qqx7p9n7te11jcu",
+                  "type": "function",
+                  "function": {
+                    "name": "get_weather",
+                    "arguments": "{\"location\":\"San Francisco, CA\"}"
+                  }
+                }
+              ],
+              "finish_reason": "tool_calls",
+              "model_used": "deepseek-ai/DeepSeek-V3",
+              "timestamp": "2025-07-22T12:42:39.293281"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 3,
+            "error_count": 0,
+            "unclear_count": 0,
+            "no_tool_call_count": 0
+          },
+          "timestamp": "2025-07-22T12:43:10.112745"
+        },
+        {
+          "model_id": "deepseek-ai/DeepSeek-V3-0324",
+          "provider_name": "hyperbolic",
+          "display_name": "hyperbolic",
+          "vendor": "hyperbolic",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "deepseek-ai/DeepSeek-V3-0324",
+              "provider_name": "hyperbolic",
+              "display_name": "hyperbolic",
+              "vendor": "hyperbolic",
+              "region": "",
+              "supports_tools": false,
+              "tool_call_made": false,
+              "status": "no_tool_call",
+              "error": null,
+              "response_content": "The weather in San Francisco is known for its mild, Mediterranean-like climate, characterized by cool summers and mild winters. Here are some key features:\n\n- **Summer (June\u2013September)**: Often foggy, especially in the morning and evening, with average highs around **65\u201370\u00b0F (18\u201321\u00b0C)** and lows around **50\u201355\u00b0F (10\u201313\u00b0C)**. The west side of the city (near the ocean) is cooler and foggier.\n- **Fall (October\u2013November)**: Generally the warmest and clearest time, with less fog and temperatures in the **60s\u201370s\u00b0F (15\u201324\u00b0C)**.\n- **Winter (December\u2013February)**: Mild but rainy season, with highs around **55\u201360\u00b0F (13\u201316\u00b0C)** and lows in the **mid-40s\u00b0F (7\u20139\u00b0C)**. Snow is extremely rare.\n- **Spring (March\u2013May)**: Variable, with a mix of rain and sun, warming gradually into the **60s\u00b0F (15\u201320\u00b0C)**.\n\n**Microclimates**: San Francisco has sharp temperature differences between neighborhoods due to hills and ocean influence. Areas like the Sunset and Richmond districts are often foggy, while downtown and the Mission District can be sunnier and warmer.\n\nWould you like a current forecast or more details on a specific season?",
+              "tool_calls": null,
+              "finish_reason": "stop",
+              "model_used": "deepseek-ai/DeepSeek-V3-0324",
+              "timestamp": "2025-07-22T12:42:39.293284"
+            },
+            {
+              "model_id": "deepseek-ai/DeepSeek-V3-0324",
+              "provider_name": "hyperbolic",
+              "display_name": "hyperbolic",
+              "vendor": "hyperbolic",
+              "region": "",
+              "supports_tools": false,
+              "tool_call_made": false,
+              "status": "no_tool_call",
+              "error": null,
+              "response_content": "San Francisco's weather is known for its mild, Mediterranean-like climate with cool summers, foggy mornings, and relatively warm winters. Here\u2019s a general breakdown:\n\n### **Year-Round Weather:**\n- **Cool and Mild:** Temperatures typically range between **50\u00b0F (10\u00b0C) and 70\u00b0F (21\u00b0C)** year-round.\n- **Microclimates:** Weather can vary significantly between neighborhoods due to hills and ocean influence. The western side (near the Pacific) is often foggy and cooler, while the eastern side (downtown, Mission District) can be sunnier and warmer.\n\n### **Seasonal Breakdown:**\n- **Spring (March\u2013May):** Mild (55\u201365\u00b0F / 13\u201318\u00b0C), occasional rain early in the season, increasing sunshine.\n- **Summer (June\u2013August):** Cool (55\u201370\u00b0F / 13\u201321\u00b0C), often foggy (especially in the morning and evenings\u2014locals call it \"June Gloom\" or \"Fogust\").\n- **Fall (September\u2013November):** Warmest months (60\u201375\u00b0F / 15\u201324\u00b0C), least foggy, known as \"Indian Summer.\"\n- **Winter (December\u2013February):** Cool and damp (45\u201360\u00b0F / 7\u201315\u00b0C), rainy season (but not extreme), little to no snow.\n\n### **Key Notes:**\n- **\"The coldest winter I ever spent was a summer in San Francisco.\"** (Often misattributed to Mark Twain) \u2013 Summers are cool, so bring layers.\n- **Windy & Foggy:** The Golden Gate Bridge area and western districts are especially prone to fog and wind.\n- **Pack Layers:** Even in summer, temperatures drop quickly, especially near the water.\n\nWould you like a more detailed forecast for a specific time? Or recommendations on what to pack?",
+              "tool_calls": null,
+              "finish_reason": "stop",
+              "model_used": "deepseek-ai/DeepSeek-V3-0324",
+              "timestamp": "2025-07-22T12:42:39.293288"
+            },
+            {
+              "model_id": "deepseek-ai/DeepSeek-V3-0324",
+              "provider_name": "hyperbolic",
+              "display_name": "hyperbolic",
+              "vendor": "hyperbolic",
+              "region": "",
+              "supports_tools": false,
+              "tool_call_made": false,
+              "status": "no_tool_call",
+              "error": null,
+              "response_content": "San Francisco's weather is famously mild but variable due to its coastal location and microclimates. Here\u2019s what to expect:\n\n### **General Climate:**\n- **Cool Summers:** Rarely hot\u2014average highs are in the 60s\u00b0F (15\u201320\u00b0C), with fog (especially in the west) rolling in most mornings/evenings.  \n- **Mild Winters:** Daytime temps hover in the 50s\u201360s\u00b0F (10\u201318\u00b0C), with rain from November to March. Snow is extremely rare.  \n- **Microclimates:** The city can have sunny skies in one neighborhood and foggy chill just a few blocks away (e.g., the Sunset District is often foggy, while Mission District is warmer).  \n\n### **Key Features:**\n- **Fog:** The iconic Karl the Fog is common in summer, burning off by afternoon.  \n- **Wind:** Often breezy, especially near the Golden Gate Bridge.  \n- **Layering is Key:** Even in summer, evenings can be chilly\u2014always bring a sweater or jacket.  \n\n**Current Weather Check:** For real-time conditions, check [Weather.com](https://weather.com) or [AccuWeather](https://www.accuweather.com).  \n\nWould you like tips for packing or specific seasonal advice?",
+              "tool_calls": null,
+              "finish_reason": "stop",
+              "model_used": "deepseek-ai/DeepSeek-V3-0324",
+              "timestamp": "2025-07-22T12:42:39.293291"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 0,
+            "error_count": 0,
+            "unclear_count": 0,
+            "no_tool_call_count": 3
+          },
+          "timestamp": "2025-07-22T12:43:10.112759"
+        },
+        {
+          "model_id": "deepseek-ai/DeepSeek-V3-0324",
+          "provider_name": "sambanova",
+          "display_name": "sambanova",
+          "vendor": "sambanova",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "deepseek-ai/DeepSeek-V3-0324",
+              "provider_name": "sambanova",
+              "display_name": "sambanova",
+              "vendor": "sambanova",
+              "region": "",
+              "supports_tools": true,
+              "tool_call_made": true,
+              "status": "success",
+              "error": null,
+              "response_content": null,
+              "tool_calls": [
+                {
+                  "id": "call_f45d203869c24a4282",
+                  "type": "function",
+                  "function": {
+                    "name": "get_weather",
+                    "arguments": "{\"location\":\"San Francisco\",\"unit\":\"fahrenheit\"}"
+                  }
+                }
+              ],
+              "finish_reason": "tool_calls",
+              "model_used": "DeepSeek-V3-0324",
+              "timestamp": "2025-07-22T12:42:39.293295"
+            },
+            {
+              "model_id": "deepseek-ai/DeepSeek-V3-0324",
+              "provider_name": "sambanova",
+              "display_name": "sambanova",
+              "vendor": "sambanova",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/sambanova/v1/chat/completions (Request ID: Root=1-687fbf88-6292261402fb6af01adbae98;9ae693b7-90e0-4ff5-8390-2abb61748456)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:42:39.293298"
+            },
+            {
+              "model_id": "deepseek-ai/DeepSeek-V3-0324",
+              "provider_name": "sambanova",
+              "display_name": "sambanova",
+              "vendor": "sambanova",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/sambanova/v1/chat/completions (Request ID: Root=1-687fbf88-29e194801028669507b5086a;ec16abfd-9cf0-4b04-a83e-ab3d3577293e)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:42:39.293302"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 1,
+            "error_count": 2,
+            "unclear_count": 0,
+            "no_tool_call_count": 0
+          },
+          "timestamp": "2025-07-22T12:43:10.112776"
+        }
+      ],
+      "structured_output": [
+        {
+          "model_id": "deepseek-ai/DeepSeek-V3-0324",
+          "provider_name": "novita",
+          "display_name": "novita",
+          "vendor": "novita",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "deepseek-ai/DeepSeek-V3-0324",
+              "provider_name": "novita",
+              "display_name": "novita",
+              "vendor": "novita",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-687fbf9e-13d6a4606ee3f9fb42bd724b;6b60a51c-cda8-4d85-aecc-bf34b8e0fc8f)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.150136"
+            },
+            {
+              "model_id": "deepseek-ai/DeepSeek-V3-0324",
+              "provider_name": "novita",
+              "display_name": "novita",
+              "vendor": "novita",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-687fbf9e-460880ec59274c6c146d64aa;47ebd362-79d3-45b5-8f07-50043f588d9b)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.150203"
+            },
+            {
+              "model_id": "deepseek-ai/DeepSeek-V3-0324",
+              "provider_name": "novita",
+              "display_name": "novita",
+              "vendor": "novita",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-687fbf9e-4737aeac2d4a46ae3f4bf636;0bb88cb0-2a61-4f56-a0e0-6f1a4b005b4e)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.150227"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 0,
+            "error_count": 3,
+            "unclear_count": 0,
+            "fail_count": 0
+          },
+          "timestamp": "2025-07-22T12:43:10.324267"
+        },
+        {
+          "model_id": "deepseek-ai/DeepSeek-V3-0324",
+          "provider_name": "fireworks-ai",
+          "display_name": "fireworks-ai",
+          "vendor": "fireworks-ai",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "deepseek-ai/DeepSeek-V3-0324",
+              "provider_name": "fireworks-ai",
+              "display_name": "fireworks-ai",
+              "vendor": "fireworks-ai",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/fireworks-ai/inference/v1/chat/completions (Request ID: Root=1-687fbf9e-039f514e5d563f9b32617623;30a7cbb7-e8f6-45f1-9b91-5126afa35b6a)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.150247"
+            },
+            {
+              "model_id": "deepseek-ai/DeepSeek-V3-0324",
+              "provider_name": "fireworks-ai",
+              "display_name": "fireworks-ai",
+              "vendor": "fireworks-ai",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/fireworks-ai/inference/v1/chat/completions (Request ID: Root=1-687fbf9e-0193a926236b5e8d2b75c964;ec1f80e9-42ae-47f9-bec3-6bcdecc63358)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.150272"
+            },
+            {
+              "model_id": "deepseek-ai/DeepSeek-V3-0324",
+              "provider_name": "fireworks-ai",
+              "display_name": "fireworks-ai",
+              "vendor": "fireworks-ai",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/fireworks-ai/inference/v1/chat/completions (Request ID: Root=1-687fbf9e-5314776410803e9441ec975a;2db645c6-1cee-464c-be60-fa88cde1fe8d)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.150316"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 0,
+            "error_count": 3,
+            "unclear_count": 0,
+            "fail_count": 0
+          },
+          "timestamp": "2025-07-22T12:43:10.324297"
+        },
+        {
+          "model_id": "deepseek-ai/DeepSeek-V3-0324",
+          "provider_name": "nebius",
+          "display_name": "nebius",
+          "vendor": "nebius",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "deepseek-ai/DeepSeek-V3-0324",
+              "provider_name": "nebius",
+              "display_name": "nebius",
+              "vendor": "nebius",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/nebius/v1/chat/completions (Request ID: Root=1-687fbf9e-3d443cd714344bf21208507c;9025a85d-5b4e-41d4-bc8e-6f9a499547cb)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.150321"
+            },
+            {
+              "model_id": "deepseek-ai/DeepSeek-V3-0324",
+              "provider_name": "nebius",
+              "display_name": "nebius",
+              "vendor": "nebius",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/nebius/v1/chat/completions (Request ID: Root=1-687fbf9e-1a6eac7a743a420f5f7b217e;e98fa7ee-8c95-453f-9d06-707633af8c0a)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.150325"
+            },
+            {
+              "model_id": "deepseek-ai/DeepSeek-V3-0324",
+              "provider_name": "nebius",
+              "display_name": "nebius",
+              "vendor": "nebius",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/nebius/v1/chat/completions (Request ID: Root=1-687fbf9e-4b83b9447875232041e2e06a;0a68755d-4a2c-4708-a8bb-4f2f722ac559)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.150328"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 0,
+            "error_count": 3,
+            "unclear_count": 0,
+            "fail_count": 0
+          },
+          "timestamp": "2025-07-22T12:43:10.324317"
+        },
+        {
+          "model_id": "deepseek-ai/DeepSeek-V3-0324",
+          "provider_name": "together",
+          "display_name": "together",
+          "vendor": "together",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "deepseek-ai/DeepSeek-V3-0324",
+              "provider_name": "together",
+              "display_name": "together",
+              "vendor": "together",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/together/v1/chat/completions (Request ID: Root=1-687fbf9e-193068de28cb69d7055bb14d;da8514b9-8e5b-4844-91c7-73877bccfc3a)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.150331"
+            },
+            {
+              "model_id": "deepseek-ai/DeepSeek-V3-0324",
+              "provider_name": "together",
+              "display_name": "together",
+              "vendor": "together",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/together/v1/chat/completions (Request ID: Root=1-687fbf9e-4f0bdad8520f82c94a21f99a;2b4ab4d2-223e-4972-8115-9e150ded025a)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.150334"
+            },
+            {
+              "model_id": "deepseek-ai/DeepSeek-V3-0324",
+              "provider_name": "together",
+              "display_name": "together",
+              "vendor": "together",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/together/v1/chat/completions (Request ID: Root=1-687fbf9e-2f9da04258ad6c6870139331;2ebece9a-8231-4df4-b56a-583d21f08a48)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.150337"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 0,
+            "error_count": 3,
+            "unclear_count": 0,
+            "fail_count": 0
+          },
+          "timestamp": "2025-07-22T12:43:10.324332"
+        },
+        {
+          "model_id": "deepseek-ai/DeepSeek-V3-0324",
+          "provider_name": "hyperbolic",
+          "display_name": "hyperbolic",
+          "vendor": "hyperbolic",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "deepseek-ai/DeepSeek-V3-0324",
+              "provider_name": "hyperbolic",
+              "display_name": "hyperbolic",
+              "vendor": "hyperbolic",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/hyperbolic/v1/chat/completions (Request ID: Root=1-687fbf9e-2e1669f554fe5c123bf4385d;a049c933-ed16-464e-b0ac-9d8c1fe26845)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.150340"
+            },
+            {
+              "model_id": "deepseek-ai/DeepSeek-V3-0324",
+              "provider_name": "hyperbolic",
+              "display_name": "hyperbolic",
+              "vendor": "hyperbolic",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/hyperbolic/v1/chat/completions (Request ID: Root=1-687fbf9e-666791aa2ecd203000f5e17e;fa3773b3-5ef8-4873-b2ba-c3dfcfd2e8bf)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.150343"
+            },
+            {
+              "model_id": "deepseek-ai/DeepSeek-V3-0324",
+              "provider_name": "hyperbolic",
+              "display_name": "hyperbolic",
+              "vendor": "hyperbolic",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/hyperbolic/v1/chat/completions (Request ID: Root=1-687fbf9e-1604b0b06baed0c71dd5e3bd;619d1e0f-9b0b-40a9-b933-264ec9a9d69f)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.150346"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 0,
+            "error_count": 3,
+            "unclear_count": 0,
+            "fail_count": 0
+          },
+          "timestamp": "2025-07-22T12:43:10.324348"
+        },
+        {
+          "model_id": "deepseek-ai/DeepSeek-V3-0324",
+          "provider_name": "sambanova",
+          "display_name": "sambanova",
+          "vendor": "sambanova",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "deepseek-ai/DeepSeek-V3-0324",
+              "provider_name": "sambanova",
+              "display_name": "sambanova",
+              "vendor": "sambanova",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/sambanova/v1/chat/completions (Request ID: Root=1-687fbf9e-42993cba2b602c670c271873;2649fc28-af7a-4b5c-85a1-8d634fe29990)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.150349"
+            },
+            {
+              "model_id": "deepseek-ai/DeepSeek-V3-0324",
+              "provider_name": "sambanova",
+              "display_name": "sambanova",
+              "vendor": "sambanova",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/sambanova/v1/chat/completions (Request ID: Root=1-687fbf9e-5437b270447677db7a4e7b6b;102d0aec-dcf5-4abc-bbba-f0a35d417824)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.150354"
+            },
+            {
+              "model_id": "deepseek-ai/DeepSeek-V3-0324",
+              "provider_name": "sambanova",
+              "display_name": "sambanova",
+              "vendor": "sambanova",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/sambanova/v1/chat/completions (Request ID: Root=1-687fbf9e-7f7ec4bf5a3da4c5613a7819;b1ac4360-025b-4efe-b4b7-98708a628e8d)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.150357"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 0,
+            "error_count": 3,
+            "unclear_count": 0,
+            "fail_count": 0
+          },
+          "timestamp": "2025-07-22T12:43:10.324366"
+        }
+      ]
+    },
+    {
+      "model_id": "deepseek-ai/DeepSeek-R1-0528",
+      "timestamp": "2025-07-22T12:43:10.541468",
+      "providers_tested": 6,
+      "providers": [
+        {
+          "model_id": "deepseek-ai/DeepSeek-R1-0528",
+          "provider_name": "novita",
+          "display_name": "novita",
+          "vendor": "novita",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "deepseek-ai/DeepSeek-R1-0528",
+              "provider_name": "novita",
+              "display_name": "novita",
+              "vendor": "novita",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-687fbf9e-60b77d6032580eeb23e23da9;5f538c58-f32a-4483-9542-254bbd767222)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.360177"
+            },
+            {
+              "model_id": "deepseek-ai/DeepSeek-R1-0528",
+              "provider_name": "novita",
+              "display_name": "novita",
+              "vendor": "novita",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-687fbf9e-44d716c00c2a01e24e11c753;b9dffafa-d743-4b66-86a2-40b0ce38fd30)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.360228"
+            },
+            {
+              "model_id": "deepseek-ai/DeepSeek-R1-0528",
+              "provider_name": "novita",
+              "display_name": "novita",
+              "vendor": "novita",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-687fbf9e-5f24dfc6421650935c9ba636;7e3a86aa-4058-4e7f-99d4-ef4be5c86356)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.360247"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 0,
+            "error_count": 3,
+            "unclear_count": 0,
+            "no_tool_call_count": 0
+          },
+          "timestamp": "2025-07-22T12:43:10.541372"
+        },
+        {
+          "model_id": "deepseek-ai/DeepSeek-R1-0528",
+          "provider_name": "fireworks-ai",
+          "display_name": "fireworks-ai",
+          "vendor": "fireworks-ai",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "deepseek-ai/DeepSeek-R1-0528",
+              "provider_name": "fireworks-ai",
+              "display_name": "fireworks-ai",
+              "vendor": "fireworks-ai",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/fireworks-ai/inference/v1/chat/completions (Request ID: Root=1-687fbf9e-618f075068c9093747793d45;4e0dd3d0-28ac-4ec2-9ce8-15ab0b545988)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.360267"
+            },
+            {
+              "model_id": "deepseek-ai/DeepSeek-R1-0528",
+              "provider_name": "fireworks-ai",
+              "display_name": "fireworks-ai",
+              "vendor": "fireworks-ai",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/fireworks-ai/inference/v1/chat/completions (Request ID: Root=1-687fbf9e-38556fd2234435e947f0a2cf;3cd31700-9c95-46f0-8630-9c6e86ac4390)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.360284"
+            },
+            {
+              "model_id": "deepseek-ai/DeepSeek-R1-0528",
+              "provider_name": "fireworks-ai",
+              "display_name": "fireworks-ai",
+              "vendor": "fireworks-ai",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/fireworks-ai/inference/v1/chat/completions (Request ID: Root=1-687fbf9e-641a6456510019e62cbd3d08;85402d82-cbe0-4724-9f26-fe86f9137cf7)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.360302"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 0,
+            "error_count": 3,
+            "unclear_count": 0,
+            "no_tool_call_count": 0
+          },
+          "timestamp": "2025-07-22T12:43:10.541400"
+        },
+        {
+          "model_id": "deepseek-ai/DeepSeek-R1-0528",
+          "provider_name": "nebius",
+          "display_name": "nebius",
+          "vendor": "nebius",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "deepseek-ai/DeepSeek-R1-0528",
+              "provider_name": "nebius",
+              "display_name": "nebius",
+              "vendor": "nebius",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/nebius/v1/chat/completions (Request ID: Root=1-687fbf9e-4e59f8435878bbf50504b2d8;b57bbf19-ac51-4ba3-bffa-60fc24ccec4c)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.360309"
+            },
+            {
+              "model_id": "deepseek-ai/DeepSeek-R1-0528",
+              "provider_name": "nebius",
+              "display_name": "nebius",
+              "vendor": "nebius",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/nebius/v1/chat/completions (Request ID: Root=1-687fbf9e-1234c405119856d628cf6b07;00bb6615-7adc-4765-aba0-217d22bc6848)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.360314"
+            },
+            {
+              "model_id": "deepseek-ai/DeepSeek-R1-0528",
+              "provider_name": "nebius",
+              "display_name": "nebius",
+              "vendor": "nebius",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/nebius/v1/chat/completions (Request ID: Root=1-687fbf9e-711ab0164bda28b621ede1f1;77eb42da-4124-4b74-9021-250ea9652ec9)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.360318"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 0,
+            "error_count": 3,
+            "unclear_count": 0,
+            "no_tool_call_count": 0
+          },
+          "timestamp": "2025-07-22T12:43:10.541418"
+        },
+        {
+          "model_id": "deepseek-ai/DeepSeek-R1-0528",
+          "provider_name": "together",
+          "display_name": "together",
+          "vendor": "together",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "deepseek-ai/DeepSeek-R1-0528",
+              "provider_name": "together",
+              "display_name": "together",
+              "vendor": "together",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/together/v1/chat/completions (Request ID: Root=1-687fbf9e-54afd516597275681256ec30;33f0cc47-72f0-4890-a175-cac4136601e0)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.360326"
+            },
+            {
+              "model_id": "deepseek-ai/DeepSeek-R1-0528",
+              "provider_name": "together",
+              "display_name": "together",
+              "vendor": "together",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/together/v1/chat/completions (Request ID: Root=1-687fbf9e-0774174e06eef0d237f9e444;7491cb86-015e-4279-a333-6028d4a6228c)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.360329"
+            },
+            {
+              "model_id": "deepseek-ai/DeepSeek-R1-0528",
+              "provider_name": "together",
+              "display_name": "together",
+              "vendor": "together",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/together/v1/chat/completions (Request ID: Root=1-687fbf9e-0bb45f9868c7ec24724c61a6;99e0f82e-d89d-4255-a56e-b46c37982401)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.360332"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 0,
+            "error_count": 3,
+            "unclear_count": 0,
+            "no_tool_call_count": 0
+          },
+          "timestamp": "2025-07-22T12:43:10.541435"
+        },
+        {
+          "model_id": "deepseek-ai/DeepSeek-R1-0528",
+          "provider_name": "hyperbolic",
+          "display_name": "hyperbolic",
+          "vendor": "hyperbolic",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "deepseek-ai/DeepSeek-R1-0528",
+              "provider_name": "hyperbolic",
+              "display_name": "hyperbolic",
+              "vendor": "hyperbolic",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/hyperbolic/v1/chat/completions (Request ID: Root=1-687fbf9e-5347651a7abc44e8581f1038;716ad065-254b-4967-9434-d2584395b8fc)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.360336"
+            },
+            {
+              "model_id": "deepseek-ai/DeepSeek-R1-0528",
+              "provider_name": "hyperbolic",
+              "display_name": "hyperbolic",
+              "vendor": "hyperbolic",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/hyperbolic/v1/chat/completions (Request ID: Root=1-687fbf9e-719039cd13fb2868390621b8;a9fca095-cdec-4eb1-b0f0-6c4bca329131)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.360339"
+            },
+            {
+              "model_id": "deepseek-ai/DeepSeek-R1-0528",
+              "provider_name": "hyperbolic",
+              "display_name": "hyperbolic",
+              "vendor": "hyperbolic",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/hyperbolic/v1/chat/completions (Request ID: Root=1-687fbf9e-6e61ed062b191df73caf4a3c;88d478fb-1fc0-4203-9927-b35dd0fdeb4e)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.360342"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 0,
+            "error_count": 3,
+            "unclear_count": 0,
+            "no_tool_call_count": 0
+          },
+          "timestamp": "2025-07-22T12:43:10.541452"
+        },
+        {
+          "model_id": "deepseek-ai/DeepSeek-R1-0528",
+          "provider_name": "sambanova",
+          "display_name": "sambanova",
+          "vendor": "sambanova",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "deepseek-ai/DeepSeek-R1-0528",
+              "provider_name": "sambanova",
+              "display_name": "sambanova",
+              "vendor": "sambanova",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/sambanova/v1/chat/completions (Request ID: Root=1-687fbf9e-457b81102367097c671e0d44;83bc4afb-6b44-4cee-9002-389a5b5a5b3e)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.360345"
+            },
+            {
+              "model_id": "deepseek-ai/DeepSeek-R1-0528",
+              "provider_name": "sambanova",
+              "display_name": "sambanova",
+              "vendor": "sambanova",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/sambanova/v1/chat/completions (Request ID: Root=1-687fbf9e-72665fc1509b12b25d18fa8d;6070d23c-a10b-4f80-91ab-39161edfc325)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.360348"
+            },
+            {
+              "model_id": "deepseek-ai/DeepSeek-R1-0528",
+              "provider_name": "sambanova",
+              "display_name": "sambanova",
+              "vendor": "sambanova",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/sambanova/v1/chat/completions (Request ID: Root=1-687fbf9e-028581fe52d1e00c215788ef;81393aa8-7126-4782-adae-ec9b85ee2373)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.360351"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 0,
+            "error_count": 3,
+            "unclear_count": 0,
+            "no_tool_call_count": 0
+          },
+          "timestamp": "2025-07-22T12:43:10.541466"
+        }
+      ],
+      "structured_output": [
+        {
+          "model_id": "deepseek-ai/DeepSeek-R1-0528",
+          "provider_name": "novita",
+          "display_name": "novita",
+          "vendor": "novita",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "deepseek-ai/DeepSeek-R1-0528",
+              "provider_name": "novita",
+              "display_name": "novita",
+              "vendor": "novita",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-687fbf9e-405d27575f29f6ed51d3e80e;e4f41fd6-00d1-4da3-9ac7-f4662ae11cf0)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.576370"
+            },
+            {
+              "model_id": "deepseek-ai/DeepSeek-R1-0528",
+              "provider_name": "novita",
+              "display_name": "novita",
+              "vendor": "novita",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-687fbf9e-368bc4154d39e21300a6c61f;6560a175-55a4-44fd-b043-242ac2b91b46)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.576418"
+            },
+            {
+              "model_id": "deepseek-ai/DeepSeek-R1-0528",
+              "provider_name": "novita",
+              "display_name": "novita",
+              "vendor": "novita",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-687fbf9e-3083ce6f491a8cfe2fa32b4b;1d37de29-6e8e-4482-a073-2b3873a23751)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.576441"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 0,
+            "error_count": 3,
+            "unclear_count": 0,
+            "fail_count": 0
+          },
+          "timestamp": "2025-07-22T12:43:10.727891"
+        },
+        {
+          "model_id": "deepseek-ai/DeepSeek-R1-0528",
+          "provider_name": "fireworks-ai",
+          "display_name": "fireworks-ai",
+          "vendor": "fireworks-ai",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "deepseek-ai/DeepSeek-R1-0528",
+              "provider_name": "fireworks-ai",
+              "display_name": "fireworks-ai",
+              "vendor": "fireworks-ai",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/fireworks-ai/inference/v1/chat/completions (Request ID: Root=1-687fbf9e-669a9de75656192a697bddb7;c8f9ddd7-8daa-46dd-ade9-9a91f41043dc)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.576460"
+            },
+            {
+              "model_id": "deepseek-ai/DeepSeek-R1-0528",
+              "provider_name": "fireworks-ai",
+              "display_name": "fireworks-ai",
+              "vendor": "fireworks-ai",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/fireworks-ai/inference/v1/chat/completions (Request ID: Root=1-687fbf9e-336f39dd773983b44a63381b;8ffa47b1-0bc3-45d2-9e90-959385a9565f)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.576478"
+            },
+            {
+              "model_id": "deepseek-ai/DeepSeek-R1-0528",
+              "provider_name": "fireworks-ai",
+              "display_name": "fireworks-ai",
+              "vendor": "fireworks-ai",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/fireworks-ai/inference/v1/chat/completions (Request ID: Root=1-687fbf9e-25107696304186367e46abfc;01df3cda-7709-4b1a-a192-7fb6f68b6fcd)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.576494"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 0,
+            "error_count": 3,
+            "unclear_count": 0,
+            "fail_count": 0
+          },
+          "timestamp": "2025-07-22T12:43:10.727920"
+        },
+        {
+          "model_id": "deepseek-ai/DeepSeek-R1-0528",
+          "provider_name": "nebius",
+          "display_name": "nebius",
+          "vendor": "nebius",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "deepseek-ai/DeepSeek-R1-0528",
+              "provider_name": "nebius",
+              "display_name": "nebius",
+              "vendor": "nebius",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/nebius/v1/chat/completions (Request ID: Root=1-687fbf9e-40ffec2c2c763fdd082b9f5e;a9048ff5-78cf-44e8-a3a0-baf84f398150)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.576498"
+            },
+            {
+              "model_id": "deepseek-ai/DeepSeek-R1-0528",
+              "provider_name": "nebius",
+              "display_name": "nebius",
+              "vendor": "nebius",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/nebius/v1/chat/completions (Request ID: Root=1-687fbf9e-7d6eda1e7c1869161f2dc8b1;a52c9f6c-bb1d-4c29-a0c4-1f1d2fd8bd92)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.576501"
+            },
+            {
+              "model_id": "deepseek-ai/DeepSeek-R1-0528",
+              "provider_name": "nebius",
+              "display_name": "nebius",
+              "vendor": "nebius",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/nebius/v1/chat/completions (Request ID: Root=1-687fbf9e-753d6c4535d37a3f0d6df1cf;20d0a889-c0e6-48dd-93d8-237f7fb64248)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.576505"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 0,
+            "error_count": 3,
+            "unclear_count": 0,
+            "fail_count": 0
+          },
+          "timestamp": "2025-07-22T12:43:10.727937"
+        },
+        {
+          "model_id": "deepseek-ai/DeepSeek-R1-0528",
+          "provider_name": "together",
+          "display_name": "together",
+          "vendor": "together",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "deepseek-ai/DeepSeek-R1-0528",
+              "provider_name": "together",
+              "display_name": "together",
+              "vendor": "together",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/together/v1/chat/completions (Request ID: Root=1-687fbf9e-270e206e73c9ae157d681ba7;3dc94a23-fded-492a-8297-df71c36feac9)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.576508"
+            },
+            {
+              "model_id": "deepseek-ai/DeepSeek-R1-0528",
+              "provider_name": "together",
+              "display_name": "together",
+              "vendor": "together",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/together/v1/chat/completions (Request ID: Root=1-687fbf9e-531e97183d04ab930a16ac43;2bafe009-e30d-4dd1-bd20-7b2444c8f758)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.576511"
+            },
+            {
+              "model_id": "deepseek-ai/DeepSeek-R1-0528",
+              "provider_name": "together",
+              "display_name": "together",
+              "vendor": "together",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/together/v1/chat/completions (Request ID: Root=1-687fbf9e-00c2f1653fcf098e3215a907;d7ccf3c9-7bc5-40fc-9bf9-2402ea9f3946)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.576514"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 0,
+            "error_count": 3,
+            "unclear_count": 0,
+            "fail_count": 0
+          },
+          "timestamp": "2025-07-22T12:43:10.727954"
+        },
+        {
+          "model_id": "deepseek-ai/DeepSeek-R1-0528",
+          "provider_name": "hyperbolic",
+          "display_name": "hyperbolic",
+          "vendor": "hyperbolic",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "deepseek-ai/DeepSeek-R1-0528",
+              "provider_name": "hyperbolic",
+              "display_name": "hyperbolic",
+              "vendor": "hyperbolic",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/hyperbolic/v1/chat/completions (Request ID: Root=1-687fbf9e-12032d2b17fc7be76c7e91c3;7c56bb57-d91b-40be-a8bc-f870c170370f)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.576517"
+            },
+            {
+              "model_id": "deepseek-ai/DeepSeek-R1-0528",
+              "provider_name": "hyperbolic",
+              "display_name": "hyperbolic",
+              "vendor": "hyperbolic",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/hyperbolic/v1/chat/completions (Request ID: Root=1-687fbf9e-75a893c205c4868b2395d3ad;982281b2-b05f-438d-90f2-d67d6ca56740)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.576520"
+            },
+            {
+              "model_id": "deepseek-ai/DeepSeek-R1-0528",
+              "provider_name": "hyperbolic",
+              "display_name": "hyperbolic",
+              "vendor": "hyperbolic",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/hyperbolic/v1/chat/completions (Request ID: Root=1-687fbf9e-41c4f81e0cfbf69955dde79b;801305ad-9f42-4a31-8bcf-1dcdac8d8ce3)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.576523"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 0,
+            "error_count": 3,
+            "unclear_count": 0,
+            "fail_count": 0
+          },
+          "timestamp": "2025-07-22T12:43:10.727971"
+        },
+        {
+          "model_id": "deepseek-ai/DeepSeek-R1-0528",
+          "provider_name": "sambanova",
+          "display_name": "sambanova",
+          "vendor": "sambanova",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "deepseek-ai/DeepSeek-R1-0528",
+              "provider_name": "sambanova",
+              "display_name": "sambanova",
+              "vendor": "sambanova",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/sambanova/v1/chat/completions (Request ID: Root=1-687fbf9e-3a862d2408cec9c9024201e6;c3d03de3-7d8b-450c-9a82-0d5026d7fc53)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.576525"
+            },
+            {
+              "model_id": "deepseek-ai/DeepSeek-R1-0528",
+              "provider_name": "sambanova",
+              "display_name": "sambanova",
+              "vendor": "sambanova",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/sambanova/v1/chat/completions (Request ID: Root=1-687fbf9e-5b5cf28302bfb80624a2fc48;7ffc189c-2c34-48af-bb86-cdd5e3c5f17f)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.576528"
+            },
+            {
+              "model_id": "deepseek-ai/DeepSeek-R1-0528",
+              "provider_name": "sambanova",
+              "display_name": "sambanova",
+              "vendor": "sambanova",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/sambanova/v1/chat/completions (Request ID: Root=1-687fbf9e-5b21fe442c7574b6148f4422;96298ede-d6d2-4cbd-b57b-ca06fc28a953)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.576531"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 0,
+            "error_count": 3,
+            "unclear_count": 0,
+            "fail_count": 0
+          },
+          "timestamp": "2025-07-22T12:43:10.727988"
+        }
+      ]
+    },
+    {
+      "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+      "timestamp": "2025-07-22T12:43:10.957287",
+      "providers_tested": 7,
+      "providers": [
+        {
+          "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+          "provider_name": "novita",
+          "display_name": "novita",
+          "vendor": "novita",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+              "provider_name": "novita",
+              "display_name": "novita",
+              "vendor": "novita",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-687fbf9e-6c55340751b14cf71c77442f;cc9b9666-3210-4692-a9e7-b729661dfc7d)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.765387"
+            },
+            {
+              "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+              "provider_name": "novita",
+              "display_name": "novita",
+              "vendor": "novita",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-687fbf9e-10ddcdb52bbb58c2396fc349;8b870b46-a57c-4bd3-af7f-dc5b6b4d5d67)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.765437"
+            },
+            {
+              "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+              "provider_name": "novita",
+              "display_name": "novita",
+              "vendor": "novita",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-687fbf9e-2f9d1196347807bf4ca7627e;51de7b55-cc30-4dd2-9028-174c72b8fb5f)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.765460"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 0,
+            "error_count": 3,
+            "unclear_count": 0,
+            "no_tool_call_count": 0
+          },
+          "timestamp": "2025-07-22T12:43:10.957175"
+        },
+        {
+          "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+          "provider_name": "fireworks-ai",
+          "display_name": "fireworks-ai",
+          "vendor": "fireworks-ai",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+              "provider_name": "fireworks-ai",
+              "display_name": "fireworks-ai",
+              "vendor": "fireworks-ai",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/fireworks-ai/inference/v1/chat/completions (Request ID: Root=1-687fbf9e-3c83dae41b57ee6a723281b1;b3cf0428-7bd8-477a-9b21-1e2e0349c616)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.765481"
+            },
+            {
+              "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+              "provider_name": "fireworks-ai",
+              "display_name": "fireworks-ai",
+              "vendor": "fireworks-ai",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/fireworks-ai/inference/v1/chat/completions (Request ID: Root=1-687fbf9e-6463026d2dfce95e550ae732;28824586-7a61-483c-b93e-47bd193c9b40)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.765504"
+            },
+            {
+              "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+              "provider_name": "fireworks-ai",
+              "display_name": "fireworks-ai",
+              "vendor": "fireworks-ai",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/fireworks-ai/inference/v1/chat/completions (Request ID: Root=1-687fbf9e-334adcd33e43369d5421f48c;010ddbd1-caa5-4382-a6f5-3260ce887f9c)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.765523"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 0,
+            "error_count": 3,
+            "unclear_count": 0,
+            "no_tool_call_count": 0
+          },
+          "timestamp": "2025-07-22T12:43:10.957203"
+        },
+        {
+          "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+          "provider_name": "together",
+          "display_name": "together",
+          "vendor": "together",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+              "provider_name": "together",
+              "display_name": "together",
+              "vendor": "together",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/together/v1/chat/completions (Request ID: Root=1-687fbf9e-6412830021db80db0b52ec1a;698ee65f-bf71-41e6-b098-8aac6492d9d1)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.765529"
+            },
+            {
+              "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+              "provider_name": "together",
+              "display_name": "together",
+              "vendor": "together",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/together/v1/chat/completions (Request ID: Root=1-687fbf9e-25c6cb065ccea14b4cd58ac0;5110ca2b-2793-4b1c-b33e-7c79e7d844ff)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.765533"
+            },
+            {
+              "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+              "provider_name": "together",
+              "display_name": "together",
+              "vendor": "together",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/together/v1/chat/completions (Request ID: Root=1-687fbf9e-17f4cee02f2e169136f5ad74;0a7703dc-d2c6-4db5-a46b-975b0f43f148)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.765537"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 0,
+            "error_count": 3,
+            "unclear_count": 0,
+            "no_tool_call_count": 0
+          },
+          "timestamp": "2025-07-22T12:43:10.957221"
+        },
+        {
+          "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+          "provider_name": "cerebras",
+          "display_name": "cerebras",
+          "vendor": "cerebras",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+              "provider_name": "cerebras",
+              "display_name": "cerebras",
+              "vendor": "cerebras",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/cerebras/v1/chat/completions (Request ID: Root=1-687fbf9e-457c1d7731abbacb6a346946;a0349f58-7a8b-4d43-aedb-bfad6067d059)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.765541"
+            },
+            {
+              "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+              "provider_name": "cerebras",
+              "display_name": "cerebras",
+              "vendor": "cerebras",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/cerebras/v1/chat/completions (Request ID: Root=1-687fbf9e-6c6f4ceb3cf786d25b6e889c;475e7b36-6d37-4253-bc26-1bb04a3b0c99)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.765545"
+            },
+            {
+              "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+              "provider_name": "cerebras",
+              "display_name": "cerebras",
+              "vendor": "cerebras",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/cerebras/v1/chat/completions (Request ID: Root=1-687fbf9e-009ae25c27e1049f36cab8ac;09218877-0a7c-464e-a168-c25c49ea516f)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.765550"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 0,
+            "error_count": 3,
+            "unclear_count": 0,
+            "no_tool_call_count": 0
+          },
+          "timestamp": "2025-07-22T12:43:10.957238"
+        },
+        {
+          "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+          "provider_name": "nscale",
+          "display_name": "nscale",
+          "vendor": "nscale",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+              "provider_name": "nscale",
+              "display_name": "nscale",
+              "vendor": "nscale",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-687fbf9e-2b504ada3f18a8b363410a55;735f69a8-3eaa-424a-b9d8-4fd94795de28)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.765554"
+            },
+            {
+              "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+              "provider_name": "nscale",
+              "display_name": "nscale",
+              "vendor": "nscale",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-687fbf9e-7cba83276f034c1846b2bceb;fa108dd9-15d5-4924-9036-9ce3e09dfba3)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.765558"
+            },
+            {
+              "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+              "provider_name": "nscale",
+              "display_name": "nscale",
+              "vendor": "nscale",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-687fbf9e-68c9b436654941b96698c29a;6ed97172-b660-4a5d-930d-8eb9feafb615)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.765562"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 0,
+            "error_count": 3,
+            "unclear_count": 0,
+            "no_tool_call_count": 0
+          },
+          "timestamp": "2025-07-22T12:43:10.957253"
+        },
+        {
+          "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+          "provider_name": "groq",
+          "display_name": "groq",
+          "vendor": "groq",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+              "provider_name": "groq",
+              "display_name": "groq",
+              "vendor": "groq",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "Provider 'groq' not supported. Available values: 'auto' or any provider from ['black-forest-labs', 'cerebras', 'cohere', 'fal-ai', 'fireworks-ai', 'hf-inference', 'hyperbolic', 'nebius', 'novita', 'nscale', 'openai', 'replicate', 'sambanova', 'together'].Passing 'auto' (default value) will automatically select the first provider available for the model, sorted by the user's order in https://hf.co/settings/inference-providers.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.765566"
+            },
+            {
+              "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+              "provider_name": "groq",
+              "display_name": "groq",
+              "vendor": "groq",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "Provider 'groq' not supported. Available values: 'auto' or any provider from ['black-forest-labs', 'cerebras', 'cohere', 'fal-ai', 'fireworks-ai', 'hf-inference', 'hyperbolic', 'nebius', 'novita', 'nscale', 'openai', 'replicate', 'sambanova', 'together'].Passing 'auto' (default value) will automatically select the first provider available for the model, sorted by the user's order in https://hf.co/settings/inference-providers.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.765570"
+            },
+            {
+              "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+              "provider_name": "groq",
+              "display_name": "groq",
+              "vendor": "groq",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "Provider 'groq' not supported. Available values: 'auto' or any provider from ['black-forest-labs', 'cerebras', 'cohere', 'fal-ai', 'fireworks-ai', 'hf-inference', 'hyperbolic', 'nebius', 'novita', 'nscale', 'openai', 'replicate', 'sambanova', 'together'].Passing 'auto' (default value) will automatically select the first provider available for the model, sorted by the user's order in https://hf.co/settings/inference-providers.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.765580"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 0,
+            "error_count": 3,
+            "unclear_count": 0,
+            "no_tool_call_count": 0
+          },
+          "timestamp": "2025-07-22T12:43:10.957271"
+        },
+        {
+          "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+          "provider_name": "sambanova",
+          "display_name": "sambanova",
+          "vendor": "sambanova",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+              "provider_name": "sambanova",
+              "display_name": "sambanova",
+              "vendor": "sambanova",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/sambanova/v1/chat/completions (Request ID: Root=1-687fbf9e-5d00533807334aca1acb2721;a19fffdd-7a85-4637-a380-fd221e6ed0e3)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.765584"
+            },
+            {
+              "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+              "provider_name": "sambanova",
+              "display_name": "sambanova",
+              "vendor": "sambanova",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/sambanova/v1/chat/completions (Request ID: Root=1-687fbf9e-12075c7f2bbe8b3c382abe48;99966a44-67bf-4922-a3f4-58a54183077d)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.765588"
+            },
+            {
+              "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+              "provider_name": "sambanova",
+              "display_name": "sambanova",
+              "vendor": "sambanova",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/sambanova/v1/chat/completions (Request ID: Root=1-687fbf9e-6b25110c1dd775c94bbc27bb;4136a114-d374-4eac-b872-367a8837f9b8)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.765592"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 0,
+            "error_count": 3,
+            "unclear_count": 0,
+            "no_tool_call_count": 0
+          },
+          "timestamp": "2025-07-22T12:43:10.957285"
+        }
+      ],
+      "structured_output": [
+        {
+          "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+          "provider_name": "novita",
+          "display_name": "novita",
+          "vendor": "novita",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+              "provider_name": "novita",
+              "display_name": "novita",
+              "vendor": "novita",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-687fbf9f-7838ab1c35c3a2e728397b39;002fc20b-539f-40e9-8b5e-40bec1c81bee)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.992929"
+            },
+            {
+              "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+              "provider_name": "novita",
+              "display_name": "novita",
+              "vendor": "novita",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-687fbf9f-62158e616bb5ce8e0a6df3e0;b7cb6fe0-189a-4712-b316-ebcdf7986300)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.992975"
+            },
+            {
+              "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+              "provider_name": "novita",
+              "display_name": "novita",
+              "vendor": "novita",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-687fbf9f-0ac3befa5dc92a1a44098c82;029d6d00-6a4a-43fe-871d-dab74d868152)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.992994"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 0,
+            "error_count": 3,
+            "unclear_count": 0,
+            "fail_count": 0
+          },
+          "timestamp": "2025-07-22T12:46:11.126396"
+        },
+        {
+          "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+          "provider_name": "fireworks-ai",
+          "display_name": "fireworks-ai",
+          "vendor": "fireworks-ai",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+              "provider_name": "fireworks-ai",
+              "display_name": "fireworks-ai",
+              "vendor": "fireworks-ai",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/fireworks-ai/inference/v1/chat/completions (Request ID: Root=1-687fbf9f-256caea329750eb83768d060;266905d8-6b34-4833-8e03-d70c786736f0)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.993010"
+            },
+            {
+              "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+              "provider_name": "fireworks-ai",
+              "display_name": "fireworks-ai",
+              "vendor": "fireworks-ai",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/fireworks-ai/inference/v1/chat/completions (Request ID: Root=1-687fbf9f-5f5050cf52462de83b6bdece;fc7c8507-9f9a-4e9e-9343-0531bef82a91)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.993029"
+            },
+            {
+              "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+              "provider_name": "fireworks-ai",
+              "display_name": "fireworks-ai",
+              "vendor": "fireworks-ai",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/fireworks-ai/inference/v1/chat/completions (Request ID: Root=1-687fbf9f-626b0fe57698e059395b21ba;9a69e8b7-ef89-4ec7-8739-5c46a10042f7)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.993045"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 0,
+            "error_count": 3,
+            "unclear_count": 0,
+            "fail_count": 0
+          },
+          "timestamp": "2025-07-22T12:46:11.126435"
+        },
+        {
+          "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+          "provider_name": "together",
+          "display_name": "together",
+          "vendor": "together",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+              "provider_name": "together",
+              "display_name": "together",
+              "vendor": "together",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/together/v1/chat/completions (Request ID: Root=1-687fbf9f-495f17ff245413713f94b96e;9510caff-6c42-4f81-bd3b-b31cb8928966)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.993050"
+            },
+            {
+              "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+              "provider_name": "together",
+              "display_name": "together",
+              "vendor": "together",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/together/v1/chat/completions (Request ID: Root=1-687fbf9f-2720943152ddf1950e36ee8e;0b3c451c-de03-4fe9-ad54-ed9c24c5cf12)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.993053"
+            },
+            {
+              "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+              "provider_name": "together",
+              "display_name": "together",
+              "vendor": "together",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/together/v1/chat/completions (Request ID: Root=1-687fbf9f-4a218d9a2e571b40549137bb;1266c6b9-a7a8-4ebc-9599-ea2f2474addb)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.993056"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 0,
+            "error_count": 3,
+            "unclear_count": 0,
+            "fail_count": 0
+          },
+          "timestamp": "2025-07-22T12:46:11.126457"
+        },
+        {
+          "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+          "provider_name": "cerebras",
+          "display_name": "cerebras",
+          "vendor": "cerebras",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+              "provider_name": "cerebras",
+              "display_name": "cerebras",
+              "vendor": "cerebras",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/cerebras/v1/chat/completions (Request ID: Root=1-687fbf9f-494990ab26df64fb7dd43eac;4c07a833-ab2d-43f1-ae94-61789f93c3d2)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.993060"
+            },
+            {
+              "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+              "provider_name": "cerebras",
+              "display_name": "cerebras",
+              "vendor": "cerebras",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/cerebras/v1/chat/completions (Request ID: Root=1-687fbf9f-319050d534674ed3227cede1;f3a6ceac-9b5e-4d06-bd58-8119f7853aa4)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.993063"
+            },
+            {
+              "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+              "provider_name": "cerebras",
+              "display_name": "cerebras",
+              "vendor": "cerebras",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/cerebras/v1/chat/completions (Request ID: Root=1-687fbf9f-07304f3a00ae588b0377959e;5b5ea6bf-ef5d-4832-abb8-303a831c6106)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.993066"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 0,
+            "error_count": 3,
+            "unclear_count": 0,
+            "fail_count": 0
+          },
+          "timestamp": "2025-07-22T12:46:11.126473"
+        },
+        {
+          "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+          "provider_name": "nscale",
+          "display_name": "nscale",
+          "vendor": "nscale",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+              "provider_name": "nscale",
+              "display_name": "nscale",
+              "vendor": "nscale",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-687fbf9f-69b2ca3f1791265d08ee9afc;9cf7b5fd-864d-41b0-ad40-e623779f701c)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.993069"
+            },
+            {
+              "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+              "provider_name": "nscale",
+              "display_name": "nscale",
+              "vendor": "nscale",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-687fbf9f-36549e6715a2e2997f9a7117;e40ce4c3-28db-42b3-af3b-f14d57e937b0)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.993072"
+            },
+            {
+              "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+              "provider_name": "nscale",
+              "display_name": "nscale",
+              "vendor": "nscale",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-687fbf9f-4668c28b4d02929f584d071c;75dff05b-c40e-4cad-8d81-8619c1fa0d2d)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.993075"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 0,
+            "error_count": 3,
+            "unclear_count": 0,
+            "fail_count": 0
+          },
+          "timestamp": "2025-07-22T12:46:11.126490"
+        },
+        {
+          "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+          "provider_name": "groq",
+          "display_name": "groq",
+          "vendor": "groq",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+              "provider_name": "groq",
+              "display_name": "groq",
+              "vendor": "groq",
+              "region": "",
+              "supports_structured_output": false,
+              "status": "error",
+              "error": "Provider 'groq' not supported. Available values: 'auto' or any provider from ['black-forest-labs', 'cerebras', 'cohere', 'fal-ai', 'fireworks-ai', 'hf-inference', 'hyperbolic', 'nebius', 'novita', 'nscale', 'openai', 'replicate', 'sambanova', 'together'].Passing 'auto' (default value) will automatically select the first provider available for the model, sorted by the user's order in https://hf.co/settings/inference-providers.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.993078"
+            },
+            {
+              "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+              "provider_name": "groq",
+              "display_name": "groq",
+              "vendor": "groq",
+              "region": "",
+              "supports_structured_output": false,
+              "status": "error",
+              "error": "Provider 'groq' not supported. Available values: 'auto' or any provider from ['black-forest-labs', 'cerebras', 'cohere', 'fal-ai', 'fireworks-ai', 'hf-inference', 'hyperbolic', 'nebius', 'novita', 'nscale', 'openai', 'replicate', 'sambanova', 'together'].Passing 'auto' (default value) will automatically select the first provider available for the model, sorted by the user's order in https://hf.co/settings/inference-providers.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.993091"
+            },
+            {
+              "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+              "provider_name": "groq",
+              "display_name": "groq",
+              "vendor": "groq",
+              "region": "",
+              "supports_structured_output": false,
+              "status": "error",
+              "error": "Provider 'groq' not supported. Available values: 'auto' or any provider from ['black-forest-labs', 'cerebras', 'cohere', 'fal-ai', 'fireworks-ai', 'hf-inference', 'hyperbolic', 'nebius', 'novita', 'nscale', 'openai', 'replicate', 'sambanova', 'together'].Passing 'auto' (default value) will automatically select the first provider available for the model, sorted by the user's order in https://hf.co/settings/inference-providers.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.993094"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 0,
+            "error_count": 3,
+            "unclear_count": 0,
+            "fail_count": 0
+          },
+          "timestamp": "2025-07-22T12:46:11.126511"
+        },
+        {
+          "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+          "provider_name": "sambanova",
+          "display_name": "sambanova",
+          "vendor": "sambanova",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+              "provider_name": "sambanova",
+              "display_name": "sambanova",
+              "vendor": "sambanova",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "504 Server Error: Gateway Time-out for url: https://router.huggingface.co/sambanova/v1/chat/completions",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.993097"
+            },
+            {
+              "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+              "provider_name": "sambanova",
+              "display_name": "sambanova",
+              "vendor": "sambanova",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/sambanova/v1/chat/completions (Request ID: Root=1-687fbf9f-2b56501971c18c212c5c2f04;b18f9d80-b721-4d94-9aed-a6ab5bdfef5e)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.993100"
+            },
+            {
+              "model_id": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+              "provider_name": "sambanova",
+              "display_name": "sambanova",
+              "vendor": "sambanova",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/sambanova/v1/chat/completions (Request ID: Root=1-687fbf9f-4a79b90d7af305f346016628;c924f2c4-a3fc-426a-8b59-2b6be4220711)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:43:10.993103"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 0,
+            "error_count": 3,
+            "unclear_count": 0,
+            "fail_count": 0
+          },
+          "timestamp": "2025-07-22T12:46:11.126531"
+        }
+      ]
+    },
+    {
+      "model_id": "Qwen/Qwen2.5-7B-Instruct",
+      "timestamp": "2025-07-22T12:46:11.697011",
+      "providers_tested": 2,
+      "providers": [
+        {
+          "model_id": "Qwen/Qwen2.5-7B-Instruct",
+          "provider_name": "featherless-ai",
+          "display_name": "featherless-ai",
+          "vendor": "featherless-ai",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "Qwen/Qwen2.5-7B-Instruct",
+              "provider_name": "featherless-ai",
+              "display_name": "featherless-ai",
+              "vendor": "featherless-ai",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "Provider 'featherless-ai' not supported. Available values: 'auto' or any provider from ['black-forest-labs', 'cerebras', 'cohere', 'fal-ai', 'fireworks-ai', 'hf-inference', 'hyperbolic', 'nebius', 'novita', 'nscale', 'openai', 'replicate', 'sambanova', 'together'].Passing 'auto' (default value) will automatically select the first provider available for the model, sorted by the user's order in https://hf.co/settings/inference-providers.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:46:11.164234"
+            },
+            {
+              "model_id": "Qwen/Qwen2.5-7B-Instruct",
+              "provider_name": "featherless-ai",
+              "display_name": "featherless-ai",
+              "vendor": "featherless-ai",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "Provider 'featherless-ai' not supported. Available values: 'auto' or any provider from ['black-forest-labs', 'cerebras', 'cohere', 'fal-ai', 'fireworks-ai', 'hf-inference', 'hyperbolic', 'nebius', 'novita', 'nscale', 'openai', 'replicate', 'sambanova', 'together'].Passing 'auto' (default value) will automatically select the first provider available for the model, sorted by the user's order in https://hf.co/settings/inference-providers.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:46:11.164285"
+            },
+            {
+              "model_id": "Qwen/Qwen2.5-7B-Instruct",
+              "provider_name": "featherless-ai",
+              "display_name": "featherless-ai",
+              "vendor": "featherless-ai",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "Provider 'featherless-ai' not supported. Available values: 'auto' or any provider from ['black-forest-labs', 'cerebras', 'cohere', 'fal-ai', 'fireworks-ai', 'hf-inference', 'hyperbolic', 'nebius', 'novita', 'nscale', 'openai', 'replicate', 'sambanova', 'together'].Passing 'auto' (default value) will automatically select the first provider available for the model, sorted by the user's order in https://hf.co/settings/inference-providers.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:46:11.164304"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 0,
+            "error_count": 3,
+            "unclear_count": 0,
+            "no_tool_call_count": 0
+          },
+          "timestamp": "2025-07-22T12:46:11.696988"
+        },
+        {
+          "model_id": "Qwen/Qwen2.5-7B-Instruct",
+          "provider_name": "together",
+          "display_name": "together",
+          "vendor": "together",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "Qwen/Qwen2.5-7B-Instruct",
+              "provider_name": "together",
+              "display_name": "together",
+              "vendor": "together",
+              "region": "",
+              "supports_tools": true,
+              "tool_call_made": true,
+              "status": "success",
+              "error": null,
+              "response_content": null,
+              "tool_calls": [
+                {
+                  "id": "call_8dsw76lhrg3ovrqk2y8vgajr",
+                  "type": "function",
+                  "function": {
+                    "name": "get_weather",
+                    "arguments": "{\"location\":\"San Francisco, CA\",\"unit\":\"fahrenheit\"}"
+                  }
+                }
+              ],
+              "finish_reason": "tool_calls",
+              "model_used": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+              "timestamp": "2025-07-22T12:46:11.164323"
+            },
+            {
+              "model_id": "Qwen/Qwen2.5-7B-Instruct",
+              "provider_name": "together",
+              "display_name": "together",
+              "vendor": "together",
+              "region": "",
+              "supports_tools": true,
+              "tool_call_made": true,
+              "status": "success",
+              "error": null,
+              "response_content": null,
+              "tool_calls": [
+                {
+                  "id": "call_kjlcjmziuwlyuudd5piw03ay",
+                  "type": "function",
+                  "function": {
+                    "name": "get_weather",
+                    "arguments": "{\"location\":\"San Francisco, CA\",\"unit\":\"fahrenheit\"}"
+                  }
+                }
+              ],
+              "finish_reason": "tool_calls",
+              "model_used": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+              "timestamp": "2025-07-22T12:46:11.164339"
+            },
+            {
+              "model_id": "Qwen/Qwen2.5-7B-Instruct",
+              "provider_name": "together",
+              "display_name": "together",
+              "vendor": "together",
+              "region": "",
+              "supports_tools": true,
+              "tool_call_made": true,
+              "status": "success",
+              "error": null,
+              "response_content": null,
+              "tool_calls": [
+                {
+                  "id": "call_wracpizrxqsqhyill7qlp5xz",
+                  "type": "function",
+                  "function": {
+                    "name": "get_weather",
+                    "arguments": "{\"location\":\"San Francisco, CA\",\"unit\":\"fahrenheit\"}"
+                  }
+                }
+              ],
+              "finish_reason": "tool_calls",
+              "model_used": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+              "timestamp": "2025-07-22T12:46:11.164356"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 3,
+            "error_count": 0,
+            "unclear_count": 0,
+            "no_tool_call_count": 0
+          },
+          "timestamp": "2025-07-22T12:46:11.697009"
+        }
+      ],
+      "structured_output": [
+        {
+          "model_id": "Qwen/Qwen2.5-7B-Instruct",
+          "provider_name": "featherless-ai",
+          "display_name": "featherless-ai",
+          "vendor": "featherless-ai",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "Qwen/Qwen2.5-7B-Instruct",
+              "provider_name": "featherless-ai",
+              "display_name": "featherless-ai",
+              "vendor": "featherless-ai",
+              "region": "",
+              "supports_structured_output": false,
+              "status": "error",
+              "error": "Provider 'featherless-ai' not supported. Available values: 'auto' or any provider from ['black-forest-labs', 'cerebras', 'cohere', 'fal-ai', 'fireworks-ai', 'hf-inference', 'hyperbolic', 'nebius', 'novita', 'nscale', 'openai', 'replicate', 'sambanova', 'together'].Passing 'auto' (default value) will automatically select the first provider available for the model, sorted by the user's order in https://hf.co/settings/inference-providers.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:46:11.732446"
+            },
+            {
+              "model_id": "Qwen/Qwen2.5-7B-Instruct",
+              "provider_name": "featherless-ai",
+              "display_name": "featherless-ai",
+              "vendor": "featherless-ai",
+              "region": "",
+              "supports_structured_output": false,
+              "status": "error",
+              "error": "Provider 'featherless-ai' not supported. Available values: 'auto' or any provider from ['black-forest-labs', 'cerebras', 'cohere', 'fal-ai', 'fireworks-ai', 'hf-inference', 'hyperbolic', 'nebius', 'novita', 'nscale', 'openai', 'replicate', 'sambanova', 'together'].Passing 'auto' (default value) will automatically select the first provider available for the model, sorted by the user's order in https://hf.co/settings/inference-providers.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:46:11.732492"
+            },
+            {
+              "model_id": "Qwen/Qwen2.5-7B-Instruct",
+              "provider_name": "featherless-ai",
+              "display_name": "featherless-ai",
+              "vendor": "featherless-ai",
+              "region": "",
+              "supports_structured_output": false,
+              "status": "error",
+              "error": "Provider 'featherless-ai' not supported. Available values: 'auto' or any provider from ['black-forest-labs', 'cerebras', 'cohere', 'fal-ai', 'fireworks-ai', 'hf-inference', 'hyperbolic', 'nebius', 'novita', 'nscale', 'openai', 'replicate', 'sambanova', 'together'].Passing 'auto' (default value) will automatically select the first provider available for the model, sorted by the user's order in https://hf.co/settings/inference-providers.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:46:11.732510"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 0,
+            "error_count": 3,
+            "unclear_count": 0,
+            "fail_count": 0
+          },
+          "timestamp": "2025-07-22T12:46:14.182033"
+        },
+        {
+          "model_id": "Qwen/Qwen2.5-7B-Instruct",
+          "provider_name": "together",
+          "display_name": "together",
+          "vendor": "together",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "Qwen/Qwen2.5-7B-Instruct",
+              "provider_name": "together",
+              "display_name": "together",
+              "vendor": "together",
+              "region": "",
+              "supports_structured_output": false,
+              "status": "invalid_json",
+              "error": null,
+              "response_content": "To provide you with the most accurate and up-to-date weather information for London, I would need to check the latest weather forecast. However, I can give you some general information about the climate in London:\n\nLondon has a temperate oceanic climate (K\u00f6ppen Cfb), characterized by cool summers and mild winters. Here are some typical weather patterns:\n\n- **Summer (June to August)**: Average high temperatures range from 18\u00b0C to 24\u00b0C (64\u00b0F to 75\u00b0F). It can be quite humid, and there's a chance of rain, even during the summer months.\n\n- **Autumn (September to November)**: Temperatures gradually decrease, with highs around 10\u00b0C to 16\u00b0C (50\u00b0F to 61\u00b0F). Rainfall increases, and there's a higher chance of overcast skies.\n\n- **Winter (December to February)**: The coldest months, with average temperatures ranging from 3\u00b0C to 8\u00b0C (37\u00b0F to 46\u00b0F). There can be frost and occasional snow, though it's not as common as in some other parts of the UK.\n\n- **Spring (March to May)**: Temperatures rise, with highs around 10\u00b0C to 15\u00b0C (50\u00b0F to 59\u00b0F). It's a transitional season with variable weather, including occasional showers.\n\nFor the most current and detailed weather information, you might want to check a reliable weather website or app that provides real-time updates for London.",
+              "finish_reason": "stop",
+              "model_used": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+              "timestamp": "2025-07-22T12:46:11.732529"
+            },
+            {
+              "model_id": "Qwen/Qwen2.5-7B-Instruct",
+              "provider_name": "together",
+              "display_name": "together",
+              "vendor": "together",
+              "region": "",
+              "supports_structured_output": false,
+              "status": "invalid_json",
+              "error": null,
+              "response_content": "To provide you with the most accurate and up-to-date weather information for London, I would need to check the latest weather forecast. However, I can give you some general information about the climate in London:\n\nLondon has a temperate oceanic climate (K\u00f6ppen Cfb), characterized by cool summers and mild winters. Here are some typical weather patterns:\n\n- **Summer (June to August)**: Average high temperatures range from 18\u00b0C to 24\u00b0C (64\u00b0F to 75\u00b0F). It can be quite humid, and there's a chance of rain, even during the summer months.\n\n- **Autumn (September to November)**: Temperatures gradually decrease, with highs around 10\u00b0C to 16\u00b0C (50\u00b0F to 61\u00b0F). Rainfall increases, and there's a higher chance of overcast skies.\n\n- **Winter (December to February)**: The coldest months, with average temperatures ranging from 3\u00b0C to 8\u00b0C (37\u00b0F to 46\u00b0F). There can be frost and occasional snow, though it's not as common as in some other parts of the UK.\n\n- **Spring (March to May)**: Temperatures rise, with highs around 10\u00b0C to 15\u00b0C (50\u00b0F to 59\u00b0F). It's a transitional season with variable weather, including occasional showers.\n\nFor the most current and detailed weather information, you might want to check a reliable weather website or app that provides real-time updates for London.",
+              "finish_reason": "stop",
+              "model_used": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+              "timestamp": "2025-07-22T12:46:11.732560"
+            },
+            {
+              "model_id": "Qwen/Qwen2.5-7B-Instruct",
+              "provider_name": "together",
+              "display_name": "together",
+              "vendor": "together",
+              "region": "",
+              "supports_structured_output": false,
+              "status": "invalid_json",
+              "error": null,
+              "response_content": "To provide you with the most accurate and up-to-date weather information for London, I would need to check the latest weather forecast. However, I can give you some general information about the climate in London:\n\nLondon has a temperate oceanic climate (K\u00f6ppen Cfb), characterized by cool summers and mild winters. Here are some typical weather patterns:\n\n- **Summer (June to August)**: Average high temperatures range from 18\u00b0C to 24\u00b0C (64\u00b0F to 75\u00b0F). It can be quite humid, and there's a chance of rain, even during the summer months.\n\n- **Autumn (September to November)**: Temperatures gradually decrease, with highs around 10\u00b0C to 16\u00b0C (50\u00b0F to 61\u00b0F). Rainfall increases, and there's a higher chance of overcast skies.\n\n- **Winter (December to February)**: The coldest months, with average temperatures ranging from 3\u00b0C to 8\u00b0C (37\u00b0F to 46\u00b0F). There can be frost and occasional snow, though it's not as common as in some other parts of the UK.\n\n- **Spring (March to May)**: Temperatures rise, with highs around 10\u00b0C to 15\u00b0C (50\u00b0F to 59\u00b0F). It's a transitional season with variable weather, including occasional showers.\n\nFor the most current and detailed weather information, you might want to check a reliable weather website or app that provides real-time updates for London.",
+              "finish_reason": "stop",
+              "model_used": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+              "timestamp": "2025-07-22T12:46:11.732580"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 0,
+            "error_count": 0,
+            "unclear_count": 0,
+            "fail_count": 3
+          },
+          "timestamp": "2025-07-22T12:46:14.182056"
+        }
+      ]
+    },
+    {
+      "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+      "timestamp": "2025-07-22T12:46:14.951927",
+      "providers_tested": 5,
+      "providers": [
+        {
+          "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+          "provider_name": "nebius",
+          "display_name": "nebius",
+          "vendor": "nebius",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+              "provider_name": "nebius",
+              "display_name": "nebius",
+              "vendor": "nebius",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/nebius/v1/chat/completions (Request ID: Root=1-687fc056-4038161071ffbbbb1d405c33;88bae1fd-7c8f-41af-a938-022cdddee8b2)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:46:14.218815"
+            },
+            {
+              "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+              "provider_name": "nebius",
+              "display_name": "nebius",
+              "vendor": "nebius",
+              "region": "",
+              "supports_tools": false,
+              "tool_call_made": false,
+              "status": "no_tool_call",
+              "error": null,
+              "response_content": "<tools>\n{\"name\": \"get_weather\", \"arguments\": {\"location\": \"San Francisco, CA\"}}\n</tools>",
+              "tool_calls": null,
+              "finish_reason": "stop",
+              "model_used": "Qwen/Qwen2.5-Coder-32B-Instruct-fast",
+              "timestamp": "2025-07-22T12:46:14.218871"
+            },
+            {
+              "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+              "provider_name": "nebius",
+              "display_name": "nebius",
+              "vendor": "nebius",
+              "region": "",
+              "supports_tools": false,
+              "tool_call_made": false,
+              "status": "no_tool_call",
+              "error": null,
+              "response_content": "<tools>\n{\"name\": \"get_weather\", \"arguments\": {\"location\": \"San Francisco, CA\", \"unit\": \"fahrenheit\"}}\n</tools>",
+              "tool_calls": null,
+              "finish_reason": "stop",
+              "model_used": "Qwen/Qwen2.5-Coder-32B-Instruct-fast",
+              "timestamp": "2025-07-22T12:46:14.218897"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 0,
+            "error_count": 1,
+            "unclear_count": 0,
+            "no_tool_call_count": 2
+          },
+          "timestamp": "2025-07-22T12:46:14.951855"
+        },
+        {
+          "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+          "provider_name": "featherless-ai",
+          "display_name": "featherless-ai",
+          "vendor": "featherless-ai",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+              "provider_name": "featherless-ai",
+              "display_name": "featherless-ai",
+              "vendor": "featherless-ai",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "Provider 'featherless-ai' not supported. Available values: 'auto' or any provider from ['black-forest-labs', 'cerebras', 'cohere', 'fal-ai', 'fireworks-ai', 'hf-inference', 'hyperbolic', 'nebius', 'novita', 'nscale', 'openai', 'replicate', 'sambanova', 'together'].Passing 'auto' (default value) will automatically select the first provider available for the model, sorted by the user's order in https://hf.co/settings/inference-providers.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:46:14.218921"
+            },
+            {
+              "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+              "provider_name": "featherless-ai",
+              "display_name": "featherless-ai",
+              "vendor": "featherless-ai",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "Provider 'featherless-ai' not supported. Available values: 'auto' or any provider from ['black-forest-labs', 'cerebras', 'cohere', 'fal-ai', 'fireworks-ai', 'hf-inference', 'hyperbolic', 'nebius', 'novita', 'nscale', 'openai', 'replicate', 'sambanova', 'together'].Passing 'auto' (default value) will automatically select the first provider available for the model, sorted by the user's order in https://hf.co/settings/inference-providers.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:46:14.218953"
+            },
+            {
+              "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+              "provider_name": "featherless-ai",
+              "display_name": "featherless-ai",
+              "vendor": "featherless-ai",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "Provider 'featherless-ai' not supported. Available values: 'auto' or any provider from ['black-forest-labs', 'cerebras', 'cohere', 'fal-ai', 'fireworks-ai', 'hf-inference', 'hyperbolic', 'nebius', 'novita', 'nscale', 'openai', 'replicate', 'sambanova', 'together'].Passing 'auto' (default value) will automatically select the first provider available for the model, sorted by the user's order in https://hf.co/settings/inference-providers.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:46:14.218977"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 0,
+            "error_count": 3,
+            "unclear_count": 0,
+            "no_tool_call_count": 0
+          },
+          "timestamp": "2025-07-22T12:46:14.951881"
+        },
+        {
+          "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+          "provider_name": "together",
+          "display_name": "together",
+          "vendor": "together",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+              "provider_name": "together",
+              "display_name": "together",
+              "vendor": "together",
+              "region": "",
+              "supports_tools": true,
+              "tool_call_made": true,
+              "status": "success",
+              "error": null,
+              "response_content": null,
+              "tool_calls": [
+                {
+                  "id": "call_gjgykaj069373dfwm2td75nl",
+                  "type": "function",
+                  "function": {
+                    "name": "get_weather",
+                    "arguments": "{\"location\":\"San Francisco, CA\",\"unit\":\"fahrenheit\"}"
+                  }
+                }
+              ],
+              "finish_reason": "tool_calls",
+              "model_used": "Qwen/Qwen2.5-Coder-32B-Instruct",
+              "timestamp": "2025-07-22T12:46:14.218984"
+            },
+            {
+              "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+              "provider_name": "together",
+              "display_name": "together",
+              "vendor": "together",
+              "region": "",
+              "supports_tools": true,
+              "tool_call_made": true,
+              "status": "success",
+              "error": null,
+              "response_content": null,
+              "tool_calls": [
+                {
+                  "id": "call_14conq05lbyhlct9aa7xpzjj",
+                  "type": "function",
+                  "function": {
+                    "name": "get_weather",
+                    "arguments": "{\"location\":\"San Francisco, CA\",\"unit\":\"fahrenheit\"}"
+                  }
+                }
+              ],
+              "finish_reason": "tool_calls",
+              "model_used": "Qwen/Qwen2.5-Coder-32B-Instruct",
+              "timestamp": "2025-07-22T12:46:14.218988"
+            },
+            {
+              "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+              "provider_name": "together",
+              "display_name": "together",
+              "vendor": "together",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/together/v1/chat/completions (Request ID: Root=1-687fc056-1010494b63f7a02b1d1cb58e;57a5ef1d-43ac-48b5-8a77-f77e6ca0aceb)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:46:14.218993"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 2,
+            "error_count": 1,
+            "unclear_count": 0,
+            "no_tool_call_count": 0
+          },
+          "timestamp": "2025-07-22T12:46:14.951897"
+        },
+        {
+          "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+          "provider_name": "hyperbolic",
+          "display_name": "hyperbolic",
+          "vendor": "hyperbolic",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+              "provider_name": "hyperbolic",
+              "display_name": "hyperbolic",
+              "vendor": "hyperbolic",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/hyperbolic/v1/chat/completions (Request ID: Root=1-687fc056-4706a42e34f16d9132eea431;e72c09c2-7932-443c-b1dc-cbf9f6444cc1)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:46:14.219000"
+            },
+            {
+              "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+              "provider_name": "hyperbolic",
+              "display_name": "hyperbolic",
+              "vendor": "hyperbolic",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/hyperbolic/v1/chat/completions (Request ID: Root=1-687fc056-007eb7032fb2fa9c4ddc9a57;9a3b1551-1d36-40f4-8e0c-1675b9405e22)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:46:14.219005"
+            },
+            {
+              "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+              "provider_name": "hyperbolic",
+              "display_name": "hyperbolic",
+              "vendor": "hyperbolic",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/hyperbolic/v1/chat/completions (Request ID: Root=1-687fc056-10d7a0a86115ead53c6c405d;29cd85db-b324-445c-a1a4-1743652ebe94)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:46:14.219009"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 0,
+            "error_count": 3,
+            "unclear_count": 0,
+            "no_tool_call_count": 0
+          },
+          "timestamp": "2025-07-22T12:46:14.951912"
+        },
+        {
+          "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+          "provider_name": "nscale",
+          "display_name": "nscale",
+          "vendor": "nscale",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+              "provider_name": "nscale",
+              "display_name": "nscale",
+              "vendor": "nscale",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-687fc056-49af77cd015a3a283e2039c8;425f3ade-f2b6-4c55-abab-a51bdc927900)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:46:14.219013"
+            },
+            {
+              "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+              "provider_name": "nscale",
+              "display_name": "nscale",
+              "vendor": "nscale",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-687fc056-4be7a0e86b6e48957ddda1b0;e308a2d9-9505-457d-94b2-f69aaaa94bc8)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:46:14.219018"
+            },
+            {
+              "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+              "provider_name": "nscale",
+              "display_name": "nscale",
+              "vendor": "nscale",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-687fc056-59bac76264e16b29731c1e8d;9da9f397-ca2c-4eeb-948b-11f4c4d047b5)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:46:14.219022"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 0,
+            "error_count": 3,
+            "unclear_count": 0,
+            "no_tool_call_count": 0
+          },
+          "timestamp": "2025-07-22T12:46:14.951925"
+        }
+      ],
+      "structured_output": [
+        {
+          "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+          "provider_name": "nebius",
+          "display_name": "nebius",
+          "vendor": "nebius",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+              "provider_name": "nebius",
+              "display_name": "nebius",
+              "vendor": "nebius",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/nebius/v1/chat/completions (Request ID: Root=1-687fc057-0be62dd0308ff1706977ee99;fc780ced-96d8-448c-a74c-c9c28fd0b83f)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:46:14.986937"
+            },
+            {
+              "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+              "provider_name": "nebius",
+              "display_name": "nebius",
+              "vendor": "nebius",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/nebius/v1/chat/completions (Request ID: Root=1-687fc057-4e0a122063e230f87560d9c5;385ca1a3-32f4-47c0-ac98-8f5ebed220c0)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:46:14.986988"
+            },
+            {
+              "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+              "provider_name": "nebius",
+              "display_name": "nebius",
+              "vendor": "nebius",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/nebius/v1/chat/completions (Request ID: Root=1-687fc057-03bbe0806525b3da69c1084d;49fab728-ed25-4164-bb35-763357c84b70)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:46:14.987018"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 0,
+            "error_count": 3,
+            "unclear_count": 0,
+            "fail_count": 0
+          },
+          "timestamp": "2025-07-22T12:46:15.098228"
+        },
+        {
+          "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+          "provider_name": "featherless-ai",
+          "display_name": "featherless-ai",
+          "vendor": "featherless-ai",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+              "provider_name": "featherless-ai",
+              "display_name": "featherless-ai",
+              "vendor": "featherless-ai",
+              "region": "",
+              "supports_structured_output": false,
+              "status": "error",
+              "error": "Provider 'featherless-ai' not supported. Available values: 'auto' or any provider from ['black-forest-labs', 'cerebras', 'cohere', 'fal-ai', 'fireworks-ai', 'hf-inference', 'hyperbolic', 'nebius', 'novita', 'nscale', 'openai', 'replicate', 'sambanova', 'together'].Passing 'auto' (default value) will automatically select the first provider available for the model, sorted by the user's order in https://hf.co/settings/inference-providers.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:46:14.987038"
+            },
+            {
+              "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+              "provider_name": "featherless-ai",
+              "display_name": "featherless-ai",
+              "vendor": "featherless-ai",
+              "region": "",
+              "supports_structured_output": false,
+              "status": "error",
+              "error": "Provider 'featherless-ai' not supported. Available values: 'auto' or any provider from ['black-forest-labs', 'cerebras', 'cohere', 'fal-ai', 'fireworks-ai', 'hf-inference', 'hyperbolic', 'nebius', 'novita', 'nscale', 'openai', 'replicate', 'sambanova', 'together'].Passing 'auto' (default value) will automatically select the first provider available for the model, sorted by the user's order in https://hf.co/settings/inference-providers.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:46:14.987055"
+            },
+            {
+              "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+              "provider_name": "featherless-ai",
+              "display_name": "featherless-ai",
+              "vendor": "featherless-ai",
+              "region": "",
+              "supports_structured_output": false,
+              "status": "error",
+              "error": "Provider 'featherless-ai' not supported. Available values: 'auto' or any provider from ['black-forest-labs', 'cerebras', 'cohere', 'fal-ai', 'fireworks-ai', 'hf-inference', 'hyperbolic', 'nebius', 'novita', 'nscale', 'openai', 'replicate', 'sambanova', 'together'].Passing 'auto' (default value) will automatically select the first provider available for the model, sorted by the user's order in https://hf.co/settings/inference-providers.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:46:14.987073"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 0,
+            "error_count": 3,
+            "unclear_count": 0,
+            "fail_count": 0
+          },
+          "timestamp": "2025-07-22T12:46:15.098256"
+        },
+        {
+          "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+          "provider_name": "together",
+          "display_name": "together",
+          "vendor": "together",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+              "provider_name": "together",
+              "display_name": "together",
+              "vendor": "together",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/together/v1/chat/completions (Request ID: Root=1-687fc057-6c94659659df924f41d560e7;8eeba735-cd2b-4c0d-8d29-0cd36534c0fa)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:46:14.987079"
+            },
+            {
+              "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+              "provider_name": "together",
+              "display_name": "together",
+              "vendor": "together",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/together/v1/chat/completions (Request ID: Root=1-687fc057-5e95e1f967811e911f13510d;0f136eaa-ede2-4405-8649-d4faa2224ad3)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:46:14.987082"
+            },
+            {
+              "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+              "provider_name": "together",
+              "display_name": "together",
+              "vendor": "together",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/together/v1/chat/completions (Request ID: Root=1-687fc057-2422b6b518f13d30248ad485;2fc14ece-d0b8-4c9b-916f-cd15dde6c84c)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:46:14.987085"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 0,
+            "error_count": 3,
+            "unclear_count": 0,
+            "fail_count": 0
+          },
+          "timestamp": "2025-07-22T12:46:15.098273"
+        },
+        {
+          "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+          "provider_name": "hyperbolic",
+          "display_name": "hyperbolic",
+          "vendor": "hyperbolic",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+              "provider_name": "hyperbolic",
+              "display_name": "hyperbolic",
+              "vendor": "hyperbolic",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/hyperbolic/v1/chat/completions (Request ID: Root=1-687fc057-16a0d0b04a23715614e40d87;bb70f126-9689-4790-9fbc-e80eb86bb337)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:46:14.987089"
+            },
+            {
+              "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+              "provider_name": "hyperbolic",
+              "display_name": "hyperbolic",
+              "vendor": "hyperbolic",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/hyperbolic/v1/chat/completions (Request ID: Root=1-687fc057-1c1291b76c98ee5a6ad4fdcc;93758107-b979-4da5-941b-a33b8a22efd6)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:46:14.987092"
+            },
+            {
+              "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+              "provider_name": "hyperbolic",
+              "display_name": "hyperbolic",
+              "vendor": "hyperbolic",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/hyperbolic/v1/chat/completions (Request ID: Root=1-687fc057-7a9af3541c4b272448f30a40;7abd4b70-45d5-4d9c-a75e-c2cd35ceb4e4)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:46:14.987094"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 0,
+            "error_count": 3,
+            "unclear_count": 0,
+            "fail_count": 0
+          },
+          "timestamp": "2025-07-22T12:46:15.098290"
+        },
+        {
+          "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+          "provider_name": "nscale",
+          "display_name": "nscale",
+          "vendor": "nscale",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+              "provider_name": "nscale",
+              "display_name": "nscale",
+              "vendor": "nscale",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-687fc057-129a5a8f48043ae45e8ebea1;f43a02db-1087-45d1-b516-470f5406ba90)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:46:14.987098"
+            },
+            {
+              "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+              "provider_name": "nscale",
+              "display_name": "nscale",
+              "vendor": "nscale",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-687fc057-113d5660031b5c60512f4d21;6279e0d9-5cdc-43d4-bbde-3e905d5b02b2)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:46:14.987101"
+            },
+            {
+              "model_id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+              "provider_name": "nscale",
+              "display_name": "nscale",
+              "vendor": "nscale",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/nscale/v1/chat/completions (Request ID: Root=1-687fc057-2b5977de36e950ee36334ed4;0c444fc3-729c-4ea1-a2d7-d3b21c1746d5)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:46:14.987109"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 0,
+            "error_count": 3,
+            "unclear_count": 0,
+            "fail_count": 0
+          },
+          "timestamp": "2025-07-22T12:46:15.098307"
+        }
+      ]
+    },
+    {
+      "model_id": "Qwen/Qwen3-30B-A3B",
+      "timestamp": "2025-07-22T12:46:15.244040",
+      "providers_tested": 3,
+      "providers": [
+        {
+          "model_id": "Qwen/Qwen3-30B-A3B",
+          "provider_name": "novita",
+          "display_name": "novita",
+          "vendor": "novita",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "Qwen/Qwen3-30B-A3B",
+              "provider_name": "novita",
+              "display_name": "novita",
+              "vendor": "novita",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-687fc057-67d7f74d2aa7c38962f00e82;51beabae-5d7a-415f-9b1f-b9c335d00fed)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:46:15.132932"
+            },
+            {
+              "model_id": "Qwen/Qwen3-30B-A3B",
+              "provider_name": "novita",
+              "display_name": "novita",
+              "vendor": "novita",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-687fc057-782f60367df7e7cc57edd788;c9893ee2-e80d-4582-bf50-3d8ce7b38f33)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:46:15.132975"
+            },
+            {
+              "model_id": "Qwen/Qwen3-30B-A3B",
+              "provider_name": "novita",
+              "display_name": "novita",
+              "vendor": "novita",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-687fc057-2aef68c82cd89b300041be66;95558f08-fab3-4e79-b888-52fa40598ff4)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:46:15.132993"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 0,
+            "error_count": 3,
+            "unclear_count": 0,
+            "no_tool_call_count": 0
+          },
+          "timestamp": "2025-07-22T12:46:15.243995"
+        },
+        {
+          "model_id": "Qwen/Qwen3-30B-A3B",
+          "provider_name": "fireworks-ai",
+          "display_name": "fireworks-ai",
+          "vendor": "fireworks-ai",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "Qwen/Qwen3-30B-A3B",
+              "provider_name": "fireworks-ai",
+              "display_name": "fireworks-ai",
+              "vendor": "fireworks-ai",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/fireworks-ai/inference/v1/chat/completions (Request ID: Root=1-687fc057-3015e8f05f6522b120496c24;1caf612c-25c5-43aa-a12a-42c1ed1d5cea)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:46:15.133010"
+            },
+            {
+              "model_id": "Qwen/Qwen3-30B-A3B",
+              "provider_name": "fireworks-ai",
+              "display_name": "fireworks-ai",
+              "vendor": "fireworks-ai",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/fireworks-ai/inference/v1/chat/completions (Request ID: Root=1-687fc057-26eeda0227d0a3ad3d77d704;e6f21b6f-ff7e-4f98-ad71-df36c98d1b92)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:46:15.133028"
+            },
+            {
+              "model_id": "Qwen/Qwen3-30B-A3B",
+              "provider_name": "fireworks-ai",
+              "display_name": "fireworks-ai",
+              "vendor": "fireworks-ai",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/fireworks-ai/inference/v1/chat/completions (Request ID: Root=1-687fc057-61bb0ef81338c72f0e96a40c;f8d25804-fd15-4735-9eef-ca8dd6386ad7)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:46:15.133045"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 0,
+            "error_count": 3,
+            "unclear_count": 0,
+            "no_tool_call_count": 0
+          },
+          "timestamp": "2025-07-22T12:46:15.244021"
+        },
+        {
+          "model_id": "Qwen/Qwen3-30B-A3B",
+          "provider_name": "nebius",
+          "display_name": "nebius",
+          "vendor": "nebius",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "Qwen/Qwen3-30B-A3B",
+              "provider_name": "nebius",
+              "display_name": "nebius",
+              "vendor": "nebius",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/nebius/v1/chat/completions (Request ID: Root=1-687fc057-2c48596c69871c1a7e17ca5b;53d29909-5b5f-468c-8ff4-b2f77e62c172)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:46:15.133050"
+            },
+            {
+              "model_id": "Qwen/Qwen3-30B-A3B",
+              "provider_name": "nebius",
+              "display_name": "nebius",
+              "vendor": "nebius",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/nebius/v1/chat/completions (Request ID: Root=1-687fc057-73ef009a3cf6e6ec05596d24;d4e6faf2-a4bb-4b75-bb43-e864152d4857)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:46:15.133054"
+            },
+            {
+              "model_id": "Qwen/Qwen3-30B-A3B",
+              "provider_name": "nebius",
+              "display_name": "nebius",
+              "vendor": "nebius",
+              "region": "",
+              "supports_tools": null,
+              "tool_call_made": false,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/nebius/v1/chat/completions (Request ID: Root=1-687fc057-6f1d78424b02acdc396101ed;b04e8a56-a405-4bf4-8c66-1ae8d794c9a9)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "tool_calls": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:46:15.133057"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 0,
+            "error_count": 3,
+            "unclear_count": 0,
+            "no_tool_call_count": 0
+          },
+          "timestamp": "2025-07-22T12:46:15.244038"
+        }
+      ],
+      "structured_output": [
+        {
+          "model_id": "Qwen/Qwen3-30B-A3B",
+          "provider_name": "novita",
+          "display_name": "novita",
+          "vendor": "novita",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "Qwen/Qwen3-30B-A3B",
+              "provider_name": "novita",
+              "display_name": "novita",
+              "vendor": "novita",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-687fc057-321c3dc766c9b1f13a3e1350;de0482d9-e014-4bed-be03-60b9de8a3153)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:46:15.278716"
+            },
+            {
+              "model_id": "Qwen/Qwen3-30B-A3B",
+              "provider_name": "novita",
+              "display_name": "novita",
+              "vendor": "novita",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-687fc057-11fb537f25a125d3314a7b3f;3b542bbb-3e60-4c17-8dff-5b48608b993c)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:46:15.278755"
+            },
+            {
+              "model_id": "Qwen/Qwen3-30B-A3B",
+              "provider_name": "novita",
+              "display_name": "novita",
+              "vendor": "novita",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/novita/v3/openai/chat/completions (Request ID: Root=1-687fc057-7b311f3e771e04605f7d3822;856ecae5-b375-4550-befd-441ca563d45d)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:46:15.278773"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 0,
+            "error_count": 3,
+            "unclear_count": 0,
+            "fail_count": 0
+          },
+          "timestamp": "2025-07-22T12:46:15.355030"
+        },
+        {
+          "model_id": "Qwen/Qwen3-30B-A3B",
+          "provider_name": "fireworks-ai",
+          "display_name": "fireworks-ai",
+          "vendor": "fireworks-ai",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "Qwen/Qwen3-30B-A3B",
+              "provider_name": "fireworks-ai",
+              "display_name": "fireworks-ai",
+              "vendor": "fireworks-ai",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/fireworks-ai/inference/v1/chat/completions (Request ID: Root=1-687fc057-51864a791b3a660f37c2858d;3228d2b4-386e-44b0-ba79-fe14e50fc7e3)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:46:15.278790"
+            },
+            {
+              "model_id": "Qwen/Qwen3-30B-A3B",
+              "provider_name": "fireworks-ai",
+              "display_name": "fireworks-ai",
+              "vendor": "fireworks-ai",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/fireworks-ai/inference/v1/chat/completions (Request ID: Root=1-687fc057-74dcd0ea52680a1d5b8977ed;edd73869-35fe-4bbc-a29e-d638be4abd52)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:46:15.278806"
+            },
+            {
+              "model_id": "Qwen/Qwen3-30B-A3B",
+              "provider_name": "fireworks-ai",
+              "display_name": "fireworks-ai",
+              "vendor": "fireworks-ai",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/fireworks-ai/inference/v1/chat/completions (Request ID: Root=1-687fc057-1ccb18081703ef38159e7f99;3583b2d9-1991-47bc-8349-092424748663)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:46:15.278821"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 0,
+            "error_count": 3,
+            "unclear_count": 0,
+            "fail_count": 0
+          },
+          "timestamp": "2025-07-22T12:46:15.355055"
+        },
+        {
+          "model_id": "Qwen/Qwen3-30B-A3B",
+          "provider_name": "nebius",
+          "display_name": "nebius",
+          "vendor": "nebius",
+          "region": "",
+          "test_runs": [
+            {
+              "model_id": "Qwen/Qwen3-30B-A3B",
+              "provider_name": "nebius",
+              "display_name": "nebius",
+              "vendor": "nebius",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/nebius/v1/chat/completions (Request ID: Root=1-687fc057-41e7deba0ee5f2c612c0345f;25ab6de1-3094-4f24-809a-be4ab0ec9967)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:46:15.278825"
+            },
+            {
+              "model_id": "Qwen/Qwen3-30B-A3B",
+              "provider_name": "nebius",
+              "display_name": "nebius",
+              "vendor": "nebius",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/nebius/v1/chat/completions (Request ID: Root=1-687fc057-7f17e9243c537e6b55bf34ae;075ba041-f742-4dc0-80a7-487eaed6e6f4)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:46:15.278829"
+            },
+            {
+              "model_id": "Qwen/Qwen3-30B-A3B",
+              "provider_name": "nebius",
+              "display_name": "nebius",
+              "vendor": "nebius",
+              "region": "",
+              "supports_structured_output": null,
+              "status": "error",
+              "error": "402 Client Error: Payment Required for url: https://router.huggingface.co/nebius/v1/chat/completions (Request ID: Root=1-687fc057-6aa7da7431dc2aff56345147;68eabff2-1f4d-4184-85a1-1fb2d3c6fde3)\n\nYou have exceeded your monthly included credits for Inference Providers. Subscribe to PRO to get 20x more monthly included credits.",
+              "response_content": null,
+              "finish_reason": null,
+              "model_used": null,
+              "timestamp": "2025-07-22T12:46:15.278832"
+            }
+          ],
+          "summary": {
+            "total_runs": 3,
+            "success_count": 0,
+            "error_count": 3,
+            "unclear_count": 0,
+            "fail_count": 0
+          },
+          "timestamp": "2025-07-22T12:46:15.355069"
+        }
+      ]
+    }
+  ]
+}

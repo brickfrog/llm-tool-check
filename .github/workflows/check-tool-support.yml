@@ -1,0 +1,80 @@
+name: Check Tool Support
+
+on:
+  workflow_dispatch:  # Allow manual triggers
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  check-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Install uv
+      uses: astral-sh/setup-uv@v3
+      with:
+        enable-cache: true
+        cache-dependency-glob: "uv.lock"
+
+    - name: Set up Python
+      run: uv python install 3.13
+
+    - name: Install dependencies
+      run: uv sync --frozen
+
+    - name: Run tool support checks
+      env:
+        OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        IO_API_KEY: ${{ secrets.IO_API_KEY }}
+      run: |
+        # Run all scripts in parallel
+        uv run src/checkers/http/openrouter.py &
+        PID1=$!
+        uv run src/checkers/http/huggingface.py &
+        PID2=$!
+        uv run src/checkers/http/ionet.py &
+        PID3=$!
+
+        # Wait for all processes to complete
+        wait $PID1
+        wait $PID2
+        wait $PID3
+
+    - name: Generate website
+      run: |
+        uv run src/generator/website_generator.py
+
+    - name: Commit and push results
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+
+        # Add all changes
+        git add docs/ data/data.json data/data_hf.json data/data_ionet.json
+
+        # Check if there are changes to commit
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "Update tool support results - $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
+        fi
+
+    - name: Setup Pages
+      uses: actions/configure-pages@v4
+
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: 'docs'
+
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4

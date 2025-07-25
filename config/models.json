@@ -1,0 +1,62 @@
+{
+  "DeepSeek V3 0324": {
+    "huggingface": ["deepseek-ai/DeepSeek-V3-0324"],
+    "openrouter": ["deepseek/deepseek-chat-v3-0324", "deepseek/deepseek-chat-v3-0324:free"],
+    "iointel": null
+  },
+  "DeepSeek R1 0528": {
+    "huggingface": ["deepseek-ai/DeepSeek-R1-0528"],
+    "openrouter": ["deepseek/deepseek-r1-0528", "deepseek/deepseek-r1-0528:free"],
+    "iointel": "deepseek-ai/DeepSeek-R1-0528"
+  },
+  "Llama 4 Scout": {
+    "huggingface": ["meta-llama/Llama-4-Scout-17B-16E-Instruct"],
+    "openrouter": ["meta-llama/llama-4-scout", "meta-llama/llama-4-scout:free"],
+    "iointel": null
+  },
+  "Llama 4 Maverick 17B": {
+    "huggingface": [],
+    "openrouter": [],
+    "iointel": "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8"
+  },
+  "GPT-4.1 Nano": {
+    "huggingface": [],
+    "openrouter": ["openai/gpt-4.1-nano"],
+    "iointel": null
+  },
+  "Qwen 2.5 7B": {
+    "huggingface": ["Qwen/Qwen2.5-7B-Instruct"],
+    "openrouter": ["qwen/qwen-2.5-7b-instruct", "qwen/qwen-2.5-7b-instruct:free"],
+    "iointel": null
+  },
+  "Qwen 2.5 Coder 32B": {
+    "huggingface": ["Qwen/Qwen2.5-Coder-32B-Instruct"],
+    "openrouter": ["qwen/qwen-2.5-coder-32b-instruct", "qwen/qwen-2.5-coder-32b-instruct:free"],
+    "iointel": null
+  },
+  "Qwen3 30B A3B": {
+    "huggingface": ["Qwen/Qwen3-30B-A3B"],
+    "openrouter": ["qwen/qwen3-30b-a3b", "qwen/qwen3-30b-a3b:free"],
+    "iointel": null
+  },
+  "Qwen3 235B": {
+    "huggingface": [],
+    "openrouter": [],
+    "iointel": "Qwen/Qwen3-235B-A22B-FP8"
+  },
+  "Gemma 3 27B": {
+    "huggingface": [],
+    "openrouter": [],
+    "iointel": "google/gemma-3-27b-it"
+  },
+  "Llama 3.3 70B": {
+    "huggingface": [],
+    "openrouter": [],
+    "iointel": "meta-llama/Llama-3.3-70B-Instruct"
+  },
+  "Devstral Small 2505": {
+    "huggingface": [],
+    "openrouter": [],
+    "iointel": "mistralai/Devstral-Small-2505"
+  }
+}
