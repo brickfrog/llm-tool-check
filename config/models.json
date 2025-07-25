@@ -44,6 +44,11 @@
     "openrouter": ["qwen/qwen3-coder:free"],
     "iointel": null
   },
+  "Moonshot Kimi K2": {
+    "huggingface": [],
+    "openrouter": ["moonshotai/kimi-k2:free"],
+    "iointel": null
+  },
   "Qwen3 235B": {
     "huggingface": [],
     "openrouter": [],
